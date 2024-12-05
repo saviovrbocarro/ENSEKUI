@@ -1,0 +1,10 @@
+﻿2024-12-05T19:45:22.1472906+00:00;Thread#1;Info;Reading test run result from Json file "C:\Users\savio\AppData\Local\Temp\40605595-4ec5-41dd-be58-8b99923b83d0".
+2024-12-05T19:45:22.1472906+00:00;Thread#1;Info;Successfully read test run result from Json file "C:\Users\savio\AppData\Local\Temp\40605595-4ec5-41dd-be58-8b99923b83d0"
+2024-12-05T19:45:22.1622966+00:00;Thread#1;Info;Deserializing test run result
+2024-12-05T19:45:22.5730864+00:00;Thread#1;Info;Successfully deserialized test run result
+2024-12-05T19:45:22.5730864+00:00;Thread#1;Info;Loading test run result
+2024-12-05T19:45:22.5889563+00:00;Thread#1;Info;Successfully loaded test run result
+2024-12-05T19:45:22.6032082+00:00;Thread#1;Info;creating 1 report(s)
+2024-12-05T19:45:22.6032082+00:00;Thread#1;Info;generate Report using template ReportTemplate.cshtml
+2024-12-05T19:45:23.6071696+00:00;Thread#1;Info;Finished generating reports.
+========== End of log file ==========

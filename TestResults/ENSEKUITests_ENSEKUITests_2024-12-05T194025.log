@@ -1,0 +1,1005 @@
+﻿2024-12-05T19:40:25.2809907+00:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2024-12-05T19:40:25.2811629+00:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.9.31 in Framework netcore31 in x64 mode execution started
+2024-12-05T19:40:25.2811666+00:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\savio\source\repos\ENSEKUITests\bin\Debug\netcoreapp3.1\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2024-12-05T19:40:25.2827158+00:00;VSTestExecutionThread;Info;Current UserName: 'savio', MachineName: 'DESKTOP-44J5CFI'
+2024-12-05T19:40:25.3731604+00:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\savio\source\repos\ENSEKUITests\bin\Debug\netcoreapp3.1\ENSEKUITests.dll
+2024-12-05T19:40:25.3733811+00:00;VSTestExecutionThread;Info;Output folder configured to "C:\Users\savio\source\repos\ENSEKUITests\TestResults" (default)
+2024-12-05T19:40:25.3734283+00:00;VSTestExecutionThread;Info;Profile: ENSEKUITests
+2024-12-05T19:40:25.4011010+00:00;VSTestExecutionThread;Info;Log file path: C:\Users\savio\source\repos\ENSEKUITests\TestResults\ENSEKUITests_ENSEKUITests_2024-12-05T194025.log
+2024-12-05T19:40:25.4067972+00:00;Thread#12;Info;Checking activation
+2024-12-05T19:40:25.4798434+00:00;Thread#12;Info;Activated.
+2024-12-05T19:40:25.4800518+00:00;Thread#12;Info;Activation check completed
+2024-12-05T19:40:25.4801542+00:00;Thread#12;Info;Starting test run
+2024-12-05T19:40:25.5418747+00:00;Thread#12;Info;Discovering target: Default
+2024-12-05T19:40:25.5422025+00:00;Thread#12;Info;Discovering tests from assembly: C:\Users\savio\source\repos\ENSEKUITests\bin\Debug\netcoreapp3.1\ENSEKUITests.dll
+2024-12-05T19:40:25.6031350+00:00;Thread#12;Info;Discovered tests from assembly: C:\Users\savio\source\repos\ENSEKUITests\bin\Debug\netcoreapp3.1\ENSEKUITests.dll
+2024-12-05T19:40:25.6047711+00:00:Test Suite Dump
+2024-12-05T19:40:25.6058820+00:00:#0: ENSEKUITests/ENSEKUITests - 
+2024-12-05T19:40:25.6058968+00:00:#1: Default - 
+2024-12-05T19:40:25.6058988+00:00:#2: ENSEKUITests - 
+2024-12-05T19:40:25.6059004+00:00:#3: Buy Energy - 
+2024-12-05T19:40:25.6066114+00:00:#4: Verify User can buy gas energy based on quantity of units available - TestAssembly:ENSEKUITests/Feature:Buy+Energy/Scenario:Verify+User+can+buy+gas+energy+based+on+quantity+of+units+available
+2024-12-05T19:40:25.6066356+00:00:#5: Verify User can buy electricity energy based on quantity of units available - TestAssembly:ENSEKUITests/Feature:Buy+Energy/Scenario:Verify+User+can+buy+electricity+energy+based+on+quantity+of+units+available
+2024-12-05T19:40:25.6066465+00:00:#6: Verify User can buy oil energy based on quantity of units available - TestAssembly:ENSEKUITests/Feature:Buy+Energy/Scenario:Verify+User+can+buy+oil+energy+based+on+quantity+of+units+available
+2024-12-05T19:40:25.6066526+00:00:#7: Verify User cannot buy more gas energy if the quantity of units is less than demand - TestAssembly:ENSEKUITests/Feature:Buy+Energy/Scenario:Verify+User+cannot+buy+more+gas+energy+if+the+quantity+of+units+is+less+than+demand
+2024-12-05T19:40:25.6066616+00:00:#8: Verify User cannot buy gas energy with zero units required - TestAssembly:ENSEKUITests/Feature:Buy+Energy/Scenario:Verify+User+cannot+buy+gas+energy+with+zero+units+required
+2024-12-05T19:40:25.6066671+00:00:#9: Verify Quantity of Units Available after buying units required for Gas Energy type - TestAssembly:ENSEKUITests/Feature:Buy+Energy/Scenario:Verify+Quantity+of+Units+Available+after+buying+units+required+for+Gas+Energy+type
+2024-12-05T19:40:25.6066761+00:00:#10: Verify User can buy more units of Gas Energy type - TestAssembly:ENSEKUITests/Feature:Buy+Energy/Scenario:Verify+User+can+buy+more+units+of+Gas+Energy+type
+2024-12-05T19:40:25.6066820+00:00:#11: Verify User cannot buy more electricity energy if the quantity of units is less than demand - TestAssembly:ENSEKUITests/Feature:Buy+Energy/Scenario:Verify+User+cannot+buy+more+electricity+energy+if+the+quantity+of+units+is+less+than+demand
+2024-12-05T19:40:25.6066968+00:00:#12: Verify User cannot buy electricity energy with zero units required - TestAssembly:ENSEKUITests/Feature:Buy+Energy/Scenario:Verify+User+cannot+buy+electricity+energy+with+zero+units+required
+2024-12-05T19:40:25.6067020+00:00:#13: Verify Quantity of Units Available after buying units required for Electricity Energy type - TestAssembly:ENSEKUITests/Feature:Buy+Energy/Scenario:Verify+Quantity+of+Units+Available+after+buying+units+required+for+Electricity+Energy+type
+2024-12-05T19:40:25.6067103+00:00:#14: Verify User can buy more units of Electricity Energy type - TestAssembly:ENSEKUITests/Feature:Buy+Energy/Scenario:Verify+User+can+buy+more+units+of+Electricity+Energy+type
+2024-12-05T19:40:25.6067152+00:00:#15: Verify User cannot buy more Oil energy if the quantity of units is less than demand - TestAssembly:ENSEKUITests/Feature:Buy+Energy/Scenario:Verify+User+cannot+buy+more+Oil+energy+if+the+quantity+of+units+is+less+than+demand
+2024-12-05T19:40:25.6067198+00:00:#16: Verify User cannot buy Oil energy with zero units required - TestAssembly:ENSEKUITests/Feature:Buy+Energy/Scenario:Verify+User+cannot+buy+Oil+energy+with+zero+units+required
+2024-12-05T19:40:25.6067281+00:00:#17: Verify Quantity of Units Available after buying units required for Oil Energy type - TestAssembly:ENSEKUITests/Feature:Buy+Energy/Scenario:Verify+Quantity+of+Units+Available+after+buying+units+required+for+Oil+Energy+type
+2024-12-05T19:40:25.6067328+00:00:#18: Verify User can buy more units of Oil Energy type - TestAssembly:ENSEKUITests/Feature:Buy+Energy/Scenario:Verify+User+can+buy+more+units+of+Oil+Energy+type
+2024-12-05T19:40:25.6067438+00:00:#19: Verify User cannot buy more gas energy when no units are available - TestAssembly:ENSEKUITests/Feature:Buy+Energy/Scenario:Verify+User+cannot+buy+more+gas+energy+when+no+units+are+available
+2024-12-05T19:40:25.6067493+00:00:#20: Verify User cannot buy more electricity energy when no units are available - TestAssembly:ENSEKUITests/Feature:Buy+Energy/Scenario:Verify+User+cannot+buy+more+electricity+energy+when+no+units+are+available
+2024-12-05T19:40:25.6067538+00:00:#21: Verify User cannot buy more oil energy when no units are available - TestAssembly:ENSEKUITests/Feature:Buy+Energy/Scenario:Verify+User+cannot+buy+more+oil+energy+when+no+units+are+available
+2024-12-05T19:40:25.6067752+00:00:End: Test Suite Dump
+2024-12-05T19:40:25.6214526+00:00:Thread#0:Scheduler: get next test for thread 0
+2024-12-05T19:40:25.6227701+00:00:Thread#:Scheduler: testitem #4 from normal test queue 
+2024-12-05T19:40:25.6228091+00:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2024-12-05T19:40:25.6249459+00:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2024-12-05T19:40:25.6249586+00:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2024-12-05T19:40:25.6249605+00:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2024-12-05T19:40:25.6249630+00:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2024-12-05T19:40:25.6253899+00:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2024-12-05T19:40:25.6259964+00:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2024-12-05T19:40:25.6274659+00:00:Thread #0: creating new test thread executor for ENSEKUITests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2024-12-05T19:40:25.6293049+00:00:Thread #0: Creating test assembly executor for execution model OutProc
+2024-12-05T19:40:25.6294339+00:00:Thread #0: Creating test assembly executor for execution model OutProc
+2024-12-05T19:40:25.7294397+00:00:Thread #0: using TechTalk.SpecRun.Framework.Execution.OutOfProc.StreamJsonRPC.OutOfProcessTestAssemblyExecutorHost to execute tests
+2024-12-05T19:40:25.7308153+00:00:starting Out Of Process Executor
+2024-12-05T19:40:25.7363780+00:00:Assembly resolving Microsoft.VisualStudio.Validation, Version=15.3.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2024-12-05T19:40:25.7389570+00:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' from .deps.json file
+2024-12-05T19:40:25.7389821+00:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Validation' from .deps.json
+2024-12-05T19:40:25.7398428+00:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Users\savio\source\repos\ENSEKUITests\bin\Debug\netcoreapp3.1'
+2024-12-05T19:40:25.7400920+00:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Users\savio\source\repos\ENSEKUITests\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Validation.dll'
+2024-12-05T19:40:25.7401677+00:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Users\savio\source\repos\ENSEKUITests\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Validation.exe'
+2024-12-05T19:40:25.7401972+00:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Users\savio\source\repos\ENSEKUITests\bin\Debug\netcoreapp3.1'
+2024-12-05T19:40:25.7403323+00:00:TargetFramework: .NETCoreApp,Version=v3.1
+2024-12-05T19:40:25.7404992+00:00:Tfm: netcoreapp3.1
+2024-12-05T19:40:25.7405080+00:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' in folder 'C:\Users\savio\source\repos\ENSEKUITests\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1'
+2024-12-05T19:40:25.7405100+00:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Validation' to 'C:\Users\savio\source\repos\ENSEKUITests\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\Microsoft.VisualStudio.Validation.dll'
+2024-12-05T19:40:25.7405747+00:00:[AssemblyCache] Found file 'C:\Users\savio\source\repos\ENSEKUITests\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\Microsoft.VisualStudio.Validation.dll' for assembly 'Microsoft.VisualStudio.Validation'
+2024-12-05T19:40:25.7410414+00:00:[AssemblyCache] Resolved 'Microsoft.VisualStudio.Validation' to C:\Users\savio\source\repos\ENSEKUITests\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\Microsoft.VisualStudio.Validation.dll
+2024-12-05T19:40:25.7415064+00:00:Starting callback TCP Rpc server
+2024-12-05T19:40:25.7590500+00:00:Asynchronously starting background TCP Rpc Server on port 32768
+2024-12-05T19:40:25.7591010+00:00:Started callback TCP Rpc server on port 32768
+2024-12-05T19:40:25.7591064+00:00:Starting logger TCP Rpc server
+2024-12-05T19:40:25.7604805+00:00:Asynchronously starting background TCP Rpc Server on port 32769
+2024-12-05T19:40:25.7605084+00:00:Started logger TCP Rpc server on port 32769
+2024-12-05T19:40:25.8570405+00:00:Executing test executor at 'dotnet' 'exec "C:\Users\savio\source\repos\ENSEKUITests\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\TechTalk.SpecRun.Framework.Executor.anycpu.netcoreapp3_1.dll" --remoteRunnerPid 22876 --uniqueId "2024-12-05T194025" --outputFolder "C:\Users\savio\source\repos\ENSEKUITests\TestResults" --callbackPort 32768 --loggerPort 32769' in 'C:\Users\savio\source\repos\ENSEKUITests\bin\Debug\netcoreapp3.1'
+2024-12-05T19:40:25.8673168+00:00:Executor with PID 19960 has been started successfully.
+2024-12-05T19:40:25.8729721+00:00:Out of Process Executor 19960 started
+2024-12-05T19:40:25.8730057+00:00:Waiting for endpoint
+2024-12-05T19:40:26.1924364+00:00:Assembly resolving Microsoft.VisualStudio.Threading, Version=15.3.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2024-12-05T19:40:26.1925058+00:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' from .deps.json file
+2024-12-05T19:40:26.1925133+00:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Threading' from .deps.json
+2024-12-05T19:40:26.1925186+00:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Users\savio\source\repos\ENSEKUITests\bin\Debug\netcoreapp3.1'
+2024-12-05T19:40:26.1925202+00:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Users\savio\source\repos\ENSEKUITests\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Threading.dll'
+2024-12-05T19:40:26.1925513+00:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Users\savio\source\repos\ENSEKUITests\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Threading.exe'
+2024-12-05T19:40:26.1925969+00:00:[AssemblyCache] Could not resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Users\savio\source\repos\ENSEKUITests\bin\Debug\netcoreapp3.1'
+2024-12-05T19:40:26.1926031+00:00:TargetFramework: .NETCoreApp,Version=v3.1
+2024-12-05T19:40:26.1926487+00:00:Tfm: netcoreapp3.1
+2024-12-05T19:40:26.1926610+00:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' in folder 'C:\Users\savio\source\repos\ENSEKUITests\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1'
+2024-12-05T19:40:26.1926625+00:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.Threading' to 'C:\Users\savio\source\repos\ENSEKUITests\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\Microsoft.VisualStudio.Threading.dll'
+2024-12-05T19:40:26.1927156+00:00:[AssemblyCache] Found file 'C:\Users\savio\source\repos\ENSEKUITests\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\Microsoft.VisualStudio.Threading.dll' for assembly 'Microsoft.VisualStudio.Threading'
+2024-12-05T19:40:26.1936599+00:00:[AssemblyCache] Resolved 'Microsoft.VisualStudio.Threading' to C:\Users\savio\source\repos\ENSEKUITests\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\Microsoft.VisualStudio.Threading.dll
+2024-12-05T19:40:26.3628484+00:00:Remote executor port received: 32770
+2024-12-05T19:40:26.3631035+00:00:Creating executor TCP client on port 32770
+2024-12-05T19:40:26.3633687+00:00:Created executor TCP client on port 32770
+2024-12-05T19:40:26.3633755+00:00:Connecting to remote executor TCP server
+2024-12-05T19:40:26.3641461+00:00:Connected remote executor TCP server
+2024-12-05T19:40:26.3642592+00:00:trying to connect to Out of Process Executor the 1 attempt
+2024-12-05T19:40:26.3642736+00:00:Connection to Out of Process Executor established in the 1 attempt
+2024-12-05T19:40:26.4705545+00:00:2024-12-05T19:40:26.4688545+00:00:OutOfProcessTestAssemblyExecutor: initialized for C:\Users\savio\source\repos\ENSEKUITests\bin\Debug\netcoreapp3.1\ENSEKUITests.dll on test thread #0
+2024-12-05T19:40:26.4763989+00:00:Endpoint 19960 started
+2024-12-05T19:40:26.4938076+00:00:2024-12-05T19:40:26.4933955+00:00:OutOfProcessTestAssemblyExecutor: running tests...
+2024-12-05T19:40:26.5894040+00:00:2024-12-05T19:40:26.5889598+00:00:Assembly resolving TechTalk.SpecFlow, Version=3.9.0.0, Culture=neutral, PublicKeyToken=0778194805d6db41
+2024-12-05T19:40:26.5919933+00:00:2024-12-05T19:40:26.5916640+00:00:[AssemblyCache] Trying to resolve 'TechTalk.SpecFlow' from .deps.json file
+2024-12-05T19:40:26.5941562+00:00:2024-12-05T19:40:26.5937887+00:00:[AssemblyCache] Resolved 'TechTalk.SpecFlow' to 'C:\Users\savio\.nuget\packages\specflow\3.9.40\lib\netstandard2.0\TechTalk.SpecFlow.dll'
+2024-12-05T19:40:26.6782489+00:00:2024-12-05T19:40:26.6776227+00:00:Thread#0:T:-> Loading plugin C:\Users\savio\source\repos\ENSEKUITests\bin\Debug\netcoreapp3.1\ENSEKUITests.dll
+2024-12-05T19:40:26.6795034+00:00:2024-12-05T19:40:26.6791513+00:00:Assembly resolving Microsoft.Extensions.DependencyModel, Version=1.0.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-12-05T19:40:26.6802672+00:00:2024-12-05T19:40:26.6798559+00:00:[AssemblyCache] Trying to resolve 'Microsoft.Extensions.DependencyModel' from .deps.json file
+2024-12-05T19:40:26.6812161+00:00:2024-12-05T19:40:26.6807091+00:00:[AssemblyCache] Resolved 'Microsoft.Extensions.DependencyModel' to 'C:\Users\savio\.nuget\packages\microsoft.extensions.dependencymodel\1.0.3\lib\netstandard1.6\Microsoft.Extensions.DependencyModel.dll'
+2024-12-05T19:40:26.7123062+00:00:2024-12-05T19:40:26.7112040+00:00:Assembly resolving Microsoft.DotNet.PlatformAbstractions, Version=1.0.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-12-05T19:40:26.7134304+00:00:2024-12-05T19:40:26.7129951+00:00:[AssemblyCache] Trying to resolve 'Microsoft.DotNet.PlatformAbstractions' from .deps.json file
+2024-12-05T19:40:26.7142821+00:00:2024-12-05T19:40:26.7138883+00:00:[AssemblyCache] Resolved 'Microsoft.DotNet.PlatformAbstractions' to 'C:\Users\savio\.nuget\packages\microsoft.dotnet.platformabstractions\1.0.3\lib\netstandard1.3\Microsoft.DotNet.PlatformAbstractions.dll'
+2024-12-05T19:40:26.7206501+00:00:2024-12-05T19:40:26.7201557+00:00:Thread#0:T:-> Loading plugin C:\Users\savio\source\repos\ENSEKUITests\bin\Debug\netcoreapp3.1\SpecRun.Runtime.SpecFlowPlugin.dll
+2024-12-05T19:40:26.7270627+00:00:2024-12-05T19:40:26.7265456+00:00:Thread#0:T:-> Using default config
+2024-12-05T19:40:26.7346000+00:00:2024-12-05T19:40:26.7342335+00:00:Assembly resolving Microsoft.VisualStudio.TestPlatform.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2024-12-05T19:40:26.7353811+00:00:2024-12-05T19:40:26.7350007+00:00:[AssemblyCache] Trying to resolve 'Microsoft.VisualStudio.TestPlatform.ObjectModel' from .deps.json file
+2024-12-05T19:40:26.7365177+00:00:2024-12-05T19:40:26.7359951+00:00:[AssemblyCache] Resolved 'Microsoft.VisualStudio.TestPlatform.ObjectModel' to 'C:\Users\savio\.nuget\packages\microsoft.testplatform.objectmodel\16.5.0\lib\netstandard2.0\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll'
+2024-12-05T19:40:26.7633249+00:00:2024-12-05T19:40:26.7627531+00:00:Assembly resolving SpecFlow.Internal.Json, Version=1.0.0.0, Culture=neutral, PublicKeyToken=0778194805d6db41
+2024-12-05T19:40:26.7642599+00:00:2024-12-05T19:40:26.7638031+00:00:[AssemblyCache] Trying to resolve 'SpecFlow.Internal.Json' from .deps.json file
+2024-12-05T19:40:26.7650099+00:00:2024-12-05T19:40:26.7646935+00:00:[AssemblyCache] Resolved 'SpecFlow.Internal.Json' to 'C:\Users\savio\.nuget\packages\specflow.internal.json\1.0.8\lib\netstandard2.0\SpecFlow.Internal.Json.dll'
+2024-12-05T19:40:26.8288725+00:00:Thread#0: Test #4/0 is started on thread #0
+2024-12-05T19:40:26.8411012+00:00:2024-12-05T19:40:26.8406969+00:00:Thread#0:B:Given I Navigate to ENSEK website
+2024-12-05T19:40:26.8531334+00:00:2024-12-05T19:40:26.8523893+00:00:Assembly resolving WebDriver, Version=4.0.0.0, Culture=neutral, PublicKeyToken=null
+2024-12-05T19:40:26.8549316+00:00:2024-12-05T19:40:26.8537098+00:00:[AssemblyCache] Trying to resolve 'WebDriver' from .deps.json file
+2024-12-05T19:40:26.8559268+00:00:2024-12-05T19:40:26.8555377+00:00:[AssemblyCache] Resolved 'WebDriver' to 'C:\Users\savio\.nuget\packages\selenium.webdriver\4.27.0\lib\netstandard2.0\WebDriver.dll'
+2024-12-05T19:40:26.8890654+00:00:2024-12-05T19:40:26.8886195+00:00:Assembly resolving System.Text.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51
+2024-12-05T19:40:26.8896856+00:00:2024-12-05T19:40:26.8894385+00:00:[AssemblyCache] Trying to resolve 'System.Text.Json' from .deps.json file
+2024-12-05T19:40:26.8907082+00:00:2024-12-05T19:40:26.8904762+00:00:[AssemblyCache] Resolved 'System.Text.Json' to 'C:\Users\savio\.nuget\packages\system.text.json\8.0.5\lib\netstandard2.0\System.Text.Json.dll'
+2024-12-05T19:40:28.3149546+00:00:2024-12-05T19:40:28.3134279+00:00:Assembly resolving System.Text.Encodings.Web, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51
+2024-12-05T19:40:28.3168446+00:00:2024-12-05T19:40:28.3159716+00:00:[AssemblyCache] Trying to resolve 'System.Text.Encodings.Web' from .deps.json file
+2024-12-05T19:40:28.3189680+00:00:2024-12-05T19:40:28.3178191+00:00:[AssemblyCache] Resolved 'System.Text.Encodings.Web' to 'C:\Users\savio\.nuget\packages\system.text.encodings.web\8.0.0\lib\netstandard2.0\System.Text.Encodings.Web.dll'
+2024-12-05T19:40:28.3388148+00:00:2024-12-05T19:40:28.3377551+00:00:Assembly resolving Microsoft.Bcl.AsyncInterfaces, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51
+2024-12-05T19:40:28.3400667+00:00:2024-12-05T19:40:28.3394627+00:00:[AssemblyCache] Trying to resolve 'Microsoft.Bcl.AsyncInterfaces' from .deps.json file
+2024-12-05T19:40:28.3413976+00:00:2024-12-05T19:40:28.3408029+00:00:[AssemblyCache] Resolved 'Microsoft.Bcl.AsyncInterfaces' to 'C:\Users\savio\.nuget\packages\microsoft.bcl.asyncinterfaces\8.0.0\lib\netstandard2.1\Microsoft.Bcl.AsyncInterfaces.dll'
+2024-12-05T19:40:28.3853385+00:00:2024-12-05T19:40:28.3844529+00:00:Assembly resolving System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+2024-12-05T19:40:28.3868129+00:00:2024-12-05T19:40:28.3860608+00:00:[AssemblyCache] Trying to resolve 'System.Runtime.CompilerServices.Unsafe' from .deps.json file
+2024-12-05T19:40:28.3888657+00:00:2024-12-05T19:40:28.3878913+00:00:[AssemblyCache] Resolved 'System.Runtime.CompilerServices.Unsafe' to 'C:\Users\savio\.nuget\packages\system.runtime.compilerservices.unsafe\6.0.0\lib\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll'
+2024-12-05T19:40:34.0676833+00:00:2024-12-05T19:40:34.0647071+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.GivenINavigateToENSEKWebsite() (7.2s)
+2024-12-05T19:40:34.0758343+00:00:2024-12-05T19:40:34.0746267+00:00:Thread#0:B:Then The user should be in ENSEK homepage
+2024-12-05T19:40:34.0840437+00:00:2024-12-05T19:40:34.0835707+00:00:Assembly resolving FluentAssertions, Version=7.0.0.0, Culture=neutral, PublicKeyToken=33f2691a05b67b6a
+2024-12-05T19:40:34.0844602+00:00:2024-12-05T19:40:34.0842595+00:00:[AssemblyCache] Trying to resolve 'FluentAssertions' from .deps.json file
+2024-12-05T19:40:34.0853467+00:00:2024-12-05T19:40:34.0849724+00:00:[AssemblyCache] Resolved 'FluentAssertions' to 'C:\Users\savio\.nuget\packages\fluentassertions\7.0.0\lib\netstandard2.1\FluentAssertions.dll'
+2024-12-05T19:40:36.1497785+00:00:2024-12-05T19:40:36.1487151+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.ThenTheUserShouldBeInENSEKHomepage() (2.1s)
+2024-12-05T19:40:36.1511686+00:00:2024-12-05T19:40:36.1507988+00:00:Thread#0:B:When I click on Buy Energy button
+2024-12-05T19:40:37.2083098+00:00:2024-12-05T19:40:37.2070317+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.WhenIClickOnBuyEnergyButton() (1.1s)
+2024-12-05T19:40:37.2098764+00:00:2024-12-05T19:40:37.2093977+00:00:Thread#0:B:And I click on Reset button
+2024-12-05T19:40:37.5479779+00:00:2024-12-05T19:40:37.5462979+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.WhenIClickOnResetButton() (0.3s)
+2024-12-05T19:40:37.5499898+00:00:2024-12-05T19:40:37.5494773+00:00:Thread#0:B:Then the user should be navigated to Buy Energy page
+2024-12-05T19:40:39.6187038+00:00:2024-12-05T19:40:39.6172149+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.ThenTheUserShouldBeNavigatedToPage("Buy Energy") (2.1s)
+2024-12-05T19:40:39.6259200+00:00:2024-12-05T19:40:39.6251191+00:00:Thread#0:B:And the user should see the list of energy type with details
+2024-12-05T19:40:39.6271368+00:00:2024-12-05T19:40:39.6265536+00:00:Thread#0:B:  --- table step argument ---
+2024-12-05T19:40:39.6281579+00:00:2024-12-05T19:40:39.6275711+00:00:Thread#0:B:  | EnergyType  | Price            | QuantityOfUnitsAvailable | NumberOfUnitsRequired |
+2024-12-05T19:40:39.6291863+00:00:2024-12-05T19:40:39.6285888+00:00:Thread#0:B:  | Gas         | £0.34 per m3     | 3000                     | 0                     |
+2024-12-05T19:40:39.6298659+00:00:2024-12-05T19:40:39.6295095+00:00:Thread#0:B:  | Nuclear     | £0.56 per MW     | 0                        | Not Available         |
+2024-12-05T19:40:39.6303477+00:00:2024-12-05T19:40:39.6301637+00:00:Thread#0:B:  | Electricity | £0.47 per kWh    | 4322                     | 0                     |
+2024-12-05T19:40:39.6306069+00:00:2024-12-05T19:40:39.6304770+00:00:Thread#0:B:  | Oil         | £0.50 per Litres | 20                       | 0                     |
+2024-12-05T19:40:40.0824340+00:00:2024-12-05T19:40:40.0819396+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.ThenTheUserShouldSeeTheListOfEnergyTypeWithDetails(System.Collection...) (0.4s)
+2024-12-05T19:40:40.0833079+00:00:2024-12-05T19:40:40.0829831+00:00:Thread#0:B:When I enter 20 units required for gas energy type
+2024-12-05T19:40:40.3243491+00:00:2024-12-05T19:40:40.3229020+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.WhenIEnterUnitsRequiredForEnergyType(20, "gas") (0.2s)
+2024-12-05T19:40:40.3259746+00:00:2024-12-05T19:40:40.3251197+00:00:Thread#0:B:And I click on Buy button for gas energy type
+2024-12-05T19:40:40.8328182+00:00:2024-12-05T19:40:40.8203572+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.WhenIClickOnBuyButtonForEnergyType("gas") (0.5s)
+2024-12-05T19:40:40.8756956+00:00:2024-12-05T19:40:40.8661515+00:00:Thread#0:B:Then the User should see Sale Confirmed! With message Thank you for your purchase of 20 units of Gas We have popped it in the post and it will be with you shortly.There are now 2980 units of Gas left in our stores.
+2024-12-05T19:40:44.9804285+00:00:2024-12-05T19:40:44.9794150+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.ThenTheUserShouldSeeWithMessage("Sale Confirmed!", "Thank you for you...") (4.1s)
+2024-12-05T19:40:44.9816766+00:00:2024-12-05T19:40:44.9814556+00:00:Thread#0:B:And the user should see Buy more button
+2024-12-05T19:40:47.0435219+00:00:2024-12-05T19:40:47.0423873+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.ThenTheUserShouldSeeBuyMoreButton() (2.1s)
+2024-12-05T19:40:47.0595089+00:00:Thread#0:Scheduler: get next test for thread 0
+2024-12-05T19:40:47.0595487+00:00:Thread#:Scheduler: testitem #5 from normal test queue 
+2024-12-05T19:40:47.0595519+00:00:Thread#0:Scheduler: considering testitem #5 for thread 0
+2024-12-05T19:40:47.0596424+00:00:Thread#0:TestItem#5:testItemMatchesCurrentTestThread:UnSpecific
+2024-12-05T19:40:47.0596463+00:00:Thread#0:TestItem#5:runsOnOneOtherThreadSpecific:False
+2024-12-05T19:40:47.0596477+00:00:Thread#0:TestItem#5:runsOnOneOtherThreadUnspecific:False
+2024-12-05T19:40:47.0596490+00:00:Thread#0:Scheduler: using testitem #5 for thread 0
+2024-12-05T19:40:47.0596724+00:00:Thread#0:Scheduler: Test #5 is scheduled for thread
+2024-12-05T19:40:47.0597041+00:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2024-12-05T19:40:47.2634752+00:00:Thread#0: Test #4/0 is finished on thread #0 as Succeeded within 20.4338118 seconds
+2024-12-05T19:40:47.2660877+00:00:Thread#0: Test #5/0 is started on thread #0
+2024-12-05T19:40:47.2689691+00:00:2024-12-05T19:40:47.2685525+00:00:Thread#0:B:Given I Navigate to ENSEK website
+2024-12-05T19:40:50.8239903+00:00:2024-12-05T19:40:50.8228900+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.GivenINavigateToENSEKWebsite() (3.6s)
+2024-12-05T19:40:50.8276429+00:00:2024-12-05T19:40:50.8253666+00:00:Thread#0:B:Then The user should be in ENSEK homepage
+2024-12-05T19:40:52.8821525+00:00:2024-12-05T19:40:52.8814624+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.ThenTheUserShouldBeInENSEKHomepage() (2.1s)
+2024-12-05T19:40:52.8830997+00:00:2024-12-05T19:40:52.8828380+00:00:Thread#0:B:When I click on Buy Energy button
+2024-12-05T19:40:53.2630617+00:00:2024-12-05T19:40:53.2624274+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.WhenIClickOnBuyEnergyButton() (0.4s)
+2024-12-05T19:40:53.2636985+00:00:2024-12-05T19:40:53.2635680+00:00:Thread#0:B:And I click on Reset button
+2024-12-05T19:40:53.6540680+00:00:2024-12-05T19:40:53.6524988+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.WhenIClickOnResetButton() (0.4s)
+2024-12-05T19:40:53.6573236+00:00:2024-12-05T19:40:53.6567392+00:00:Thread#0:B:Then the user should be navigated to Buy Energy page
+2024-12-05T19:40:55.7210487+00:00:2024-12-05T19:40:55.7199045+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.ThenTheUserShouldBeNavigatedToPage("Buy Energy") (2.1s)
+2024-12-05T19:40:55.7223761+00:00:2024-12-05T19:40:55.7219883+00:00:Thread#0:B:And the user should see the list of energy type with details
+2024-12-05T19:40:55.7231894+00:00:2024-12-05T19:40:55.7227556+00:00:Thread#0:B:  --- table step argument ---
+2024-12-05T19:40:55.7240239+00:00:2024-12-05T19:40:55.7236192+00:00:Thread#0:B:  | EnergyType  | Price            | QuantityOfUnitsAvailable | NumberOfUnitsRequired |
+2024-12-05T19:40:55.7246743+00:00:2024-12-05T19:40:55.7243310+00:00:Thread#0:B:  | Gas         | £0.34 per m3     | 3000                     | 0                     |
+2024-12-05T19:40:55.7253022+00:00:2024-12-05T19:40:55.7250097+00:00:Thread#0:B:  | Nuclear     | £0.56 per MW     | 0                        | Not Available         |
+2024-12-05T19:40:55.7260165+00:00:2024-12-05T19:40:55.7257302+00:00:Thread#0:B:  | Electricity | £0.47 per kWh    | 4322                     | 0                     |
+2024-12-05T19:40:55.7264989+00:00:2024-12-05T19:40:55.7263200+00:00:Thread#0:B:  | Oil         | £0.50 per Litres | 20                       | 0                     |
+2024-12-05T19:40:56.0455567+00:00:2024-12-05T19:40:56.0453205+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.ThenTheUserShouldSeeTheListOfEnergyTypeWithDetails(System.Collection...) (0.3s)
+2024-12-05T19:40:56.0458558+00:00:2024-12-05T19:40:56.0457617+00:00:Thread#0:B:When I enter 20 units required for electricity energy type
+2024-12-05T19:40:56.2253658+00:00:2024-12-05T19:40:56.2249715+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.WhenIEnterUnitsRequiredForEnergyType(20, "electricity") (0.2s)
+2024-12-05T19:40:56.2258336+00:00:2024-12-05T19:40:56.2256476+00:00:Thread#0:B:And I click on Buy button for electricity energy type
+2024-12-05T19:40:56.6505058+00:00:2024-12-05T19:40:56.6496964+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.WhenIClickOnBuyButtonForEnergyType("electricity") (0.4s)
+2024-12-05T19:40:56.6513441+00:00:2024-12-05T19:40:56.6511553+00:00:Thread#0:B:Then the User should see Sale Confirmed! With message Thank you for your purchase of 20 units of Electricity We have popped it in the post and it will be with you shortly.There are now 4302 units of Electricity left in our stores.
+2024-12-05T19:41:00.7590739+00:00:2024-12-05T19:41:00.7584257+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.ThenTheUserShouldSeeWithMessage("Sale Confirmed!", "Thank you for you...") (4.1s)
+2024-12-05T19:41:00.7599013+00:00:2024-12-05T19:41:00.7596995+00:00:Thread#0:B:And the user should see Buy more button
+2024-12-05T19:41:02.7999359+00:00:2024-12-05T19:41:02.7991308+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.ThenTheUserShouldSeeBuyMoreButton() (2.0s)
+2024-12-05T19:41:02.8026022+00:00:Thread#0:Scheduler: get next test for thread 0
+2024-12-05T19:41:02.8026792+00:00:Thread#:Scheduler: testitem #6 from normal test queue 
+2024-12-05T19:41:02.8027107+00:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2024-12-05T19:41:02.8029559+00:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2024-12-05T19:41:02.8029744+00:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2024-12-05T19:41:02.8029930+00:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:False
+2024-12-05T19:41:02.8030147+00:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2024-12-05T19:41:02.8031346+00:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2024-12-05T19:41:02.8033694+00:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2024-12-05T19:41:02.9966373+00:00:Thread#0: Test #5/0 is finished on thread #0 as Succeeded within 15.7303727 seconds
+2024-12-05T19:41:02.9980927+00:00:Thread#0: Test #6/0 is started on thread #0
+2024-12-05T19:41:03.0017015+00:00:2024-12-05T19:41:03.0007665+00:00:Thread#0:B:Given I Navigate to ENSEK website
+2024-12-05T19:41:05.8633893+00:00:2024-12-05T19:41:05.8625857+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.GivenINavigateToENSEKWebsite() (2.9s)
+2024-12-05T19:41:05.8655591+00:00:2024-12-05T19:41:05.8645168+00:00:Thread#0:B:Then The user should be in ENSEK homepage
+2024-12-05T19:41:07.9213465+00:00:2024-12-05T19:41:07.9206833+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.ThenTheUserShouldBeInENSEKHomepage() (2.1s)
+2024-12-05T19:41:07.9223492+00:00:2024-12-05T19:41:07.9220122+00:00:Thread#0:B:When I click on Buy Energy button
+2024-12-05T19:41:08.3069242+00:00:2024-12-05T19:41:08.3065353+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.WhenIClickOnBuyEnergyButton() (0.4s)
+2024-12-05T19:41:08.3079028+00:00:2024-12-05T19:41:08.3075918+00:00:Thread#0:B:And I click on Reset button
+2024-12-05T19:41:08.6780175+00:00:2024-12-05T19:41:08.6774636+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.WhenIClickOnResetButton() (0.4s)
+2024-12-05T19:41:08.6790128+00:00:2024-12-05T19:41:08.6786120+00:00:Thread#0:B:Then the user should be navigated to Buy Energy page
+2024-12-05T19:41:10.7371615+00:00:2024-12-05T19:41:10.7363921+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.ThenTheUserShouldBeNavigatedToPage("Buy Energy") (2.1s)
+2024-12-05T19:41:10.7381214+00:00:2024-12-05T19:41:10.7378360+00:00:Thread#0:B:And the user should see the list of energy type with details
+2024-12-05T19:41:10.7385169+00:00:2024-12-05T19:41:10.7382903+00:00:Thread#0:B:  --- table step argument ---
+2024-12-05T19:41:10.7387729+00:00:2024-12-05T19:41:10.7386254+00:00:Thread#0:B:  | EnergyType  | Price            | QuantityOfUnitsAvailable | NumberOfUnitsRequired |
+2024-12-05T19:41:10.7390990+00:00:2024-12-05T19:41:10.7388856+00:00:Thread#0:B:  | Gas         | £0.34 per m3     | 3000                     | 0                     |
+2024-12-05T19:41:10.7393754+00:00:2024-12-05T19:41:10.7392001+00:00:Thread#0:B:  | Nuclear     | £0.56 per MW     | 0                        | Not Available         |
+2024-12-05T19:41:10.7397024+00:00:2024-12-05T19:41:10.7394736+00:00:Thread#0:B:  | Electricity | £0.47 per kWh    | 4322                     | 0                     |
+2024-12-05T19:41:10.7399943+00:00:2024-12-05T19:41:10.7398486+00:00:Thread#0:B:  | Oil         | £0.50 per Litres | 20                       | 0                     |
+2024-12-05T19:41:11.0705485+00:00:2024-12-05T19:41:11.0700077+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.ThenTheUserShouldSeeTheListOfEnergyTypeWithDetails(System.Collection...) (0.3s)
+2024-12-05T19:41:11.0710491+00:00:2024-12-05T19:41:11.0708802+00:00:Thread#0:B:When I enter 20 units required for oil energy type
+2024-12-05T19:41:11.2782482+00:00:2024-12-05T19:41:11.2780159+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.WhenIEnterUnitsRequiredForEnergyType(20, "oil") (0.2s)
+2024-12-05T19:41:11.2785360+00:00:2024-12-05T19:41:11.2784112+00:00:Thread#0:B:And I click on Buy button for oil energy type
+2024-12-05T19:41:12.1490422+00:00:2024-12-05T19:41:12.1483732+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.WhenIClickOnBuyButtonForEnergyType("oil") (0.9s)
+2024-12-05T19:41:12.1504953+00:00:2024-12-05T19:41:12.1500616+00:00:Thread#0:B:Then the User should see Sale Confirmed! With message Thank you for your purchase of 20 units of Oil We have popped it in the post and it will be with you shortly.There are now 0 units of Oil left in our stores.
+2024-12-05T19:41:16.2383629+00:00:2024-12-05T19:41:16.2381002+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.ThenTheUserShouldSeeWithMessage("Sale Confirmed!", "Thank you for you...") (4.1s)
+2024-12-05T19:41:16.2388464+00:00:2024-12-05T19:41:16.2386997+00:00:Thread#0:B:And the user should see Buy more button
+2024-12-05T19:41:18.2758075+00:00:2024-12-05T19:41:18.2753319+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.ThenTheUserShouldSeeBuyMoreButton() (2.0s)
+2024-12-05T19:41:18.2777356+00:00:Thread#0:Scheduler: get next test for thread 0
+2024-12-05T19:41:18.2778060+00:00:Thread#:Scheduler: testitem #7 from normal test queue 
+2024-12-05T19:41:18.2778281+00:00:Thread#0:Scheduler: considering testitem #7 for thread 0
+2024-12-05T19:41:18.2780340+00:00:Thread#0:TestItem#7:testItemMatchesCurrentTestThread:UnSpecific
+2024-12-05T19:41:18.2780528+00:00:Thread#0:TestItem#7:runsOnOneOtherThreadSpecific:False
+2024-12-05T19:41:18.2780590+00:00:Thread#0:TestItem#7:runsOnOneOtherThreadUnspecific:False
+2024-12-05T19:41:18.2781001+00:00:Thread#0:Scheduler: using testitem #7 for thread 0
+2024-12-05T19:41:18.2782430+00:00:Thread#0:Scheduler: Test #7 is scheduled for thread
+2024-12-05T19:41:18.2783858+00:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2024-12-05T19:41:18.4134832+00:00:Thread#0: Test #6/0 is finished on thread #0 as Succeeded within 15.4151176 seconds
+2024-12-05T19:41:18.4164442+00:00:Thread#0: Test #7/0 is started on thread #0
+2024-12-05T19:41:18.4211232+00:00:2024-12-05T19:41:18.4196697+00:00:Thread#0:B:Given I Navigate to ENSEK website
+2024-12-05T19:41:21.9659160+00:00:2024-12-05T19:41:21.9653463+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.GivenINavigateToENSEKWebsite() (3.5s)
+2024-12-05T19:41:21.9673259+00:00:2024-12-05T19:41:21.9669072+00:00:Thread#0:B:Then The user should be in ENSEK homepage
+2024-12-05T19:41:23.9983104+00:00:2024-12-05T19:41:23.9980431+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.ThenTheUserShouldBeInENSEKHomepage() (2.0s)
+2024-12-05T19:41:23.9987066+00:00:2024-12-05T19:41:23.9985976+00:00:Thread#0:B:When I click on Buy Energy button
+2024-12-05T19:41:24.3603907+00:00:2024-12-05T19:41:24.3601200+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.WhenIClickOnBuyEnergyButton() (0.4s)
+2024-12-05T19:41:24.3609741+00:00:2024-12-05T19:41:24.3607579+00:00:Thread#0:B:And I click on Reset button
+2024-12-05T19:41:24.7464613+00:00:2024-12-05T19:41:24.7461899+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.WhenIClickOnResetButton() (0.4s)
+2024-12-05T19:41:24.7469004+00:00:2024-12-05T19:41:24.7467258+00:00:Thread#0:B:Then the user should be navigated to Buy Energy page
+2024-12-05T19:41:26.7879461+00:00:2024-12-05T19:41:26.7874232+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.ThenTheUserShouldBeNavigatedToPage("Buy Energy") (2.0s)
+2024-12-05T19:41:26.7890008+00:00:2024-12-05T19:41:26.7886776+00:00:Thread#0:B:And the user should see the list of energy type with details
+2024-12-05T19:41:26.7891935+00:00:2024-12-05T19:41:26.7891117+00:00:Thread#0:B:  --- table step argument ---
+2024-12-05T19:41:26.7894294+00:00:2024-12-05T19:41:26.7893506+00:00:Thread#0:B:  | EnergyType  | Price            | QuantityOfUnitsAvailable | NumberOfUnitsRequired |
+2024-12-05T19:41:26.7896516+00:00:2024-12-05T19:41:26.7895088+00:00:Thread#0:B:  | Gas         | £0.34 per m3     | 3000                     | 0                     |
+2024-12-05T19:41:26.7898606+00:00:2024-12-05T19:41:26.7897344+00:00:Thread#0:B:  | Nuclear     | £0.56 per MW     | 0                        | Not Available         |
+2024-12-05T19:41:26.7901182+00:00:2024-12-05T19:41:26.7899909+00:00:Thread#0:B:  | Electricity | £0.47 per kWh    | 4322                     | 0                     |
+2024-12-05T19:41:26.7903427+00:00:2024-12-05T19:41:26.7901988+00:00:Thread#0:B:  | Oil         | £0.50 per Litres | 20                       | 0                     |
+2024-12-05T19:41:27.1358027+00:00:2024-12-05T19:41:27.1355156+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.ThenTheUserShouldSeeTheListOfEnergyTypeWithDetails(System.Collection...) (0.3s)
+2024-12-05T19:41:27.1363205+00:00:2024-12-05T19:41:27.1361668+00:00:Thread#0:B:When I enter 3001 units required for gas energy type
+2024-12-05T19:41:27.3185658+00:00:2024-12-05T19:41:27.3182964+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.WhenIEnterUnitsRequiredForEnergyType(3001, "gas") (0.2s)
+2024-12-05T19:41:27.3189805+00:00:2024-12-05T19:41:27.3188377+00:00:Thread#0:B:Then The user should see buy button disabled
+2024-12-05T19:41:29.4382407+00:00:2024-12-05T19:41:29.4376021+00:00:Thread#0:T:error: no such element: Unable to locate element: {"method":"link text","selector":"Buy more »"}
+2024-12-05T19:41:29.4391629+00:00:2024-12-05T19:41:29.4385709+00:00:Thread#0:T:  (Session info: chrome=131.0.6778.87); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception (2.1s)
+2024-12-05T19:41:29.4405587+00:00:2024-12-05T19:41:29.4401121+00:00:Thread#0:B:When I enter 20 units required for gas energy type
+2024-12-05T19:41:29.4422160+00:00:2024-12-05T19:41:29.4419274+00:00:Thread#0:T:skipped because of previous errors
+2024-12-05T19:41:29.4451954+00:00:2024-12-05T19:41:29.4450462+00:00:Thread#0:B:Then The user should see buy button enabled
+2024-12-05T19:41:29.4456875+00:00:2024-12-05T19:41:29.4455482+00:00:Thread#0:T:skipped because of previous errors
+2024-12-05T19:41:29.4625548+00:00:Thread#0:TestItem#7:Scheduler: reschedule tests for testitem #7
+2024-12-05T19:41:29.4631223+00:00:Thread#0:Scheduler: get next test for thread 0
+2024-12-05T19:41:29.4631673+00:00:Thread#:Scheduler: testitem #8 from normal test queue 
+2024-12-05T19:41:29.4631736+00:00:Thread#0:Scheduler: considering testitem #8 for thread 0
+2024-12-05T19:41:29.4632815+00:00:Thread#0:TestItem#8:testItemMatchesCurrentTestThread:UnSpecific
+2024-12-05T19:41:29.4632890+00:00:Thread#0:TestItem#8:runsOnOneOtherThreadSpecific:False
+2024-12-05T19:41:29.4632917+00:00:Thread#0:TestItem#8:runsOnOneOtherThreadUnspecific:False
+2024-12-05T19:41:29.4632942+00:00:Thread#0:Scheduler: using testitem #8 for thread 0
+2024-12-05T19:41:29.4633427+00:00:Thread#0:Scheduler: Test #8 is scheduled for thread
+2024-12-05T19:41:29.4634012+00:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2024-12-05T19:41:29.6179328+00:00:Thread#0: Test #7/0 is finished on thread #0 as Failed within 11.2012995 seconds
+2024-12-05T19:41:29.6259042+00:00:Thread#0: Test #8/0 is started on thread #0
+2024-12-05T19:41:29.6296561+00:00:2024-12-05T19:41:29.6284791+00:00:Thread#0:B:Given I Navigate to ENSEK website
+2024-12-05T19:41:33.2086020+00:00:2024-12-05T19:41:33.2083380+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.GivenINavigateToENSEKWebsite() (3.6s)
+2024-12-05T19:41:33.2090034+00:00:2024-12-05T19:41:33.2088423+00:00:Thread#0:B:Then The user should be in ENSEK homepage
+2024-12-05T19:41:35.2524696+00:00:2024-12-05T19:41:35.2519346+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.ThenTheUserShouldBeInENSEKHomepage() (2.0s)
+2024-12-05T19:41:35.2532291+00:00:2024-12-05T19:41:35.2529208+00:00:Thread#0:B:When I click on Buy Energy button
+2024-12-05T19:41:35.6325234+00:00:2024-12-05T19:41:35.6322278+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.WhenIClickOnBuyEnergyButton() (0.4s)
+2024-12-05T19:41:35.6329429+00:00:2024-12-05T19:41:35.6327761+00:00:Thread#0:B:And I click on Reset button
+2024-12-05T19:41:36.3985001+00:00:2024-12-05T19:41:36.3981680+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.WhenIClickOnResetButton() (0.8s)
+2024-12-05T19:41:36.3990238+00:00:2024-12-05T19:41:36.3988767+00:00:Thread#0:B:Then the user should be navigated to Buy Energy page
+2024-12-05T19:41:38.4445182+00:00:2024-12-05T19:41:38.4442700+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.ThenTheUserShouldBeNavigatedToPage("Buy Energy") (2.0s)
+2024-12-05T19:41:38.4449540+00:00:2024-12-05T19:41:38.4447890+00:00:Thread#0:B:And the user should see the list of energy type with details
+2024-12-05T19:41:38.4451567+00:00:2024-12-05T19:41:38.4450395+00:00:Thread#0:B:  --- table step argument ---
+2024-12-05T19:41:38.4453381+00:00:2024-12-05T19:41:38.4452581+00:00:Thread#0:B:  | EnergyType  | Price            | QuantityOfUnitsAvailable | NumberOfUnitsRequired |
+2024-12-05T19:41:38.4455133+00:00:2024-12-05T19:41:38.4454157+00:00:Thread#0:B:  | Gas         | £0.34 per m3     | 3000                     | 0                     |
+2024-12-05T19:41:38.4456728+00:00:2024-12-05T19:41:38.4455877+00:00:Thread#0:B:  | Nuclear     | £0.56 per MW     | 0                        | Not Available         |
+2024-12-05T19:41:38.4458577+00:00:2024-12-05T19:41:38.4457501+00:00:Thread#0:B:  | Electricity | £0.47 per kWh    | 4322                     | 0                     |
+2024-12-05T19:41:38.4460384+00:00:2024-12-05T19:41:38.4459496+00:00:Thread#0:B:  | Oil         | £0.50 per Litres | 20                       | 0                     |
+2024-12-05T19:41:38.7739175+00:00:2024-12-05T19:41:38.7736909+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.ThenTheUserShouldSeeTheListOfEnergyTypeWithDetails(System.Collection...) (0.3s)
+2024-12-05T19:41:38.7742231+00:00:2024-12-05T19:41:38.7741144+00:00:Thread#0:B:When I enter 0 units required for gas energy type
+2024-12-05T19:41:38.9501088+00:00:2024-12-05T19:41:38.9499039+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.WhenIEnterUnitsRequiredForEnergyType(0, "gas") (0.2s)
+2024-12-05T19:41:38.9503866+00:00:2024-12-05T19:41:38.9502764+00:00:Thread#0:B:Then The user should see buy button disabled
+2024-12-05T19:41:40.9808781+00:00:2024-12-05T19:41:40.9804969+00:00:Thread#0:T:error: no such element: Unable to locate element: {"method":"link text","selector":"Buy more »"}
+2024-12-05T19:41:40.9812979+00:00:2024-12-05T19:41:40.9811127+00:00:Thread#0:T:  (Session info: chrome=131.0.6778.87); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception (2.0s)
+2024-12-05T19:41:40.9837568+00:00:Thread#0:TestItem#8:Scheduler: reschedule tests for testitem #8
+2024-12-05T19:41:40.9843142+00:00:Thread#0:Scheduler: get next test for thread 0
+2024-12-05T19:41:40.9843536+00:00:Thread#:Scheduler: testitem #9 from normal test queue 
+2024-12-05T19:41:40.9843610+00:00:Thread#0:Scheduler: considering testitem #9 for thread 0
+2024-12-05T19:41:40.9844541+00:00:Thread#0:TestItem#9:testItemMatchesCurrentTestThread:UnSpecific
+2024-12-05T19:41:40.9844593+00:00:Thread#0:TestItem#9:runsOnOneOtherThreadSpecific:False
+2024-12-05T19:41:40.9844628+00:00:Thread#0:TestItem#9:runsOnOneOtherThreadUnspecific:False
+2024-12-05T19:41:40.9844674+00:00:Thread#0:Scheduler: using testitem #9 for thread 0
+2024-12-05T19:41:40.9845130+00:00:Thread#0:Scheduler: Test #9 is scheduled for thread
+2024-12-05T19:41:40.9845721+00:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2024-12-05T19:41:41.1638922+00:00:Thread#0: Test #8/0 is finished on thread #0 as Failed within 11.5376386 seconds
+2024-12-05T19:41:41.1652229+00:00:Thread#0: Test #9/0 is started on thread #0
+2024-12-05T19:41:41.1708969+00:00:2024-12-05T19:41:41.1702492+00:00:Thread#0:B:Given I Navigate to ENSEK website
+2024-12-05T19:41:44.7155559+00:00:2024-12-05T19:41:44.7153321+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.GivenINavigateToENSEKWebsite() (3.5s)
+2024-12-05T19:41:44.7159645+00:00:2024-12-05T19:41:44.7158195+00:00:Thread#0:B:Then The user should be in ENSEK homepage
+2024-12-05T19:41:46.7691245+00:00:2024-12-05T19:41:46.7688272+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.ThenTheUserShouldBeInENSEKHomepage() (2.1s)
+2024-12-05T19:41:46.7697723+00:00:2024-12-05T19:41:46.7694732+00:00:Thread#0:B:When I click on Buy Energy button
+2024-12-05T19:41:47.1496544+00:00:2024-12-05T19:41:47.1494113+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.WhenIClickOnBuyEnergyButton() (0.4s)
+2024-12-05T19:41:47.1499469+00:00:2024-12-05T19:41:47.1498303+00:00:Thread#0:B:And I click on Reset button
+2024-12-05T19:41:47.5490627+00:00:2024-12-05T19:41:47.5485756+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.WhenIClickOnResetButton() (0.4s)
+2024-12-05T19:41:47.5496319+00:00:2024-12-05T19:41:47.5493679+00:00:Thread#0:B:Then the user should be navigated to Buy Energy page
+2024-12-05T19:41:49.6010406+00:00:2024-12-05T19:41:49.6008348+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.ThenTheUserShouldBeNavigatedToPage("Buy Energy") (2.1s)
+2024-12-05T19:41:49.6013626+00:00:2024-12-05T19:41:49.6012515+00:00:Thread#0:B:And the user should see the list of energy type with details
+2024-12-05T19:41:49.6015321+00:00:2024-12-05T19:41:49.6014525+00:00:Thread#0:B:  --- table step argument ---
+2024-12-05T19:41:49.6017028+00:00:2024-12-05T19:41:49.6016249+00:00:Thread#0:B:  | EnergyType  | Price            | QuantityOfUnitsAvailable | NumberOfUnitsRequired |
+2024-12-05T19:41:49.6018998+00:00:2024-12-05T19:41:49.6018006+00:00:Thread#0:B:  | Gas         | £0.34 per m3     | 3000                     | 0                     |
+2024-12-05T19:41:49.6020652+00:00:2024-12-05T19:41:49.6019859+00:00:Thread#0:B:  | Nuclear     | £0.56 per MW     | 0                        | Not Available         |
+2024-12-05T19:41:49.6022749+00:00:2024-12-05T19:41:49.6021607+00:00:Thread#0:B:  | Electricity | £0.47 per kWh    | 4322                     | 0                     |
+2024-12-05T19:41:49.6024996+00:00:2024-12-05T19:41:49.6023685+00:00:Thread#0:B:  | Oil         | £0.50 per Litres | 20                       | 0                     |
+2024-12-05T19:41:49.9266692+00:00:2024-12-05T19:41:49.9264799+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.ThenTheUserShouldSeeTheListOfEnergyTypeWithDetails(System.Collection...) (0.3s)
+2024-12-05T19:41:49.9269470+00:00:2024-12-05T19:41:49.9268470+00:00:Thread#0:B:When I enter 20 units required for gas energy type
+2024-12-05T19:41:50.0911066+00:00:2024-12-05T19:41:50.0908413+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.WhenIEnterUnitsRequiredForEnergyType(20, "gas") (0.2s)
+2024-12-05T19:41:50.0914968+00:00:2024-12-05T19:41:50.0913560+00:00:Thread#0:B:And I click on Buy button for gas energy type
+2024-12-05T19:41:50.5068433+00:00:2024-12-05T19:41:50.5064994+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.WhenIClickOnBuyButtonForEnergyType("gas") (0.4s)
+2024-12-05T19:41:50.5073703+00:00:2024-12-05T19:41:50.5071835+00:00:Thread#0:B:Then the User should see Sale Confirmed! With message Thank you for your purchase of 20 units of Gas We have popped it in the post and it will be with you shortly.There are now 2980 units of Gas left in our stores.
+2024-12-05T19:41:54.5948474+00:00:2024-12-05T19:41:54.5944723+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.ThenTheUserShouldSeeWithMessage("Sale Confirmed!", "Thank you for you...") (4.1s)
+2024-12-05T19:41:54.5954550+00:00:2024-12-05T19:41:54.5951178+00:00:Thread#0:B:When the user clicks on Buy more button
+2024-12-05T19:41:54.8335813+00:00:2024-12-05T19:41:54.8333376+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.WhenTheUserClicksOnBuyMoreButton() (0.2s)
+2024-12-05T19:41:54.8339450+00:00:2024-12-05T19:41:54.8338119+00:00:Thread#0:B:Then the user should be navigated to Buy Energy page
+2024-12-05T19:41:56.8648298+00:00:2024-12-05T19:41:56.8644917+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.ThenTheUserShouldBeNavigatedToPage("Buy Energy") (2.0s)
+2024-12-05T19:41:56.8652345+00:00:2024-12-05T19:41:56.8650907+00:00:Thread#0:B:And the user should see the list of energy type with details
+2024-12-05T19:41:56.8654332+00:00:2024-12-05T19:41:56.8653289+00:00:Thread#0:B:  --- table step argument ---
+2024-12-05T19:41:56.8656618+00:00:2024-12-05T19:41:56.8655466+00:00:Thread#0:B:  | EnergyType  | Price            | QuantityOfUnitsAvailable | NumberOfUnitsRequired |
+2024-12-05T19:41:56.8658315+00:00:2024-12-05T19:41:56.8657471+00:00:Thread#0:B:  | Gas         | £0.34 per m3     | 2980                     | 0                     |
+2024-12-05T19:41:56.8660160+00:00:2024-12-05T19:41:56.8659235+00:00:Thread#0:B:  | Nuclear     | £0.56 per MW     | 0                        | Not Available         |
+2024-12-05T19:41:56.8662953+00:00:2024-12-05T19:41:56.8661457+00:00:Thread#0:B:  | Electricity | £0.47 per kWh    | 4322                     | 0                     |
+2024-12-05T19:41:56.8665669+00:00:2024-12-05T19:41:56.8664031+00:00:Thread#0:B:  | Oil         | £0.50 per Litres | 20                       | 0                     |
+2024-12-05T19:41:57.2021045+00:00:2024-12-05T19:41:57.2018385+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.ThenTheUserShouldSeeTheListOfEnergyTypeWithDetails(System.Collection...) (0.3s)
+2024-12-05T19:41:57.2031278+00:00:Thread#0:Scheduler: get next test for thread 0
+2024-12-05T19:41:57.2031877+00:00:Thread#:Scheduler: testitem #10 from normal test queue 
+2024-12-05T19:41:57.2031957+00:00:Thread#0:Scheduler: considering testitem #10 for thread 0
+2024-12-05T19:41:57.2033048+00:00:Thread#0:TestItem#10:testItemMatchesCurrentTestThread:UnSpecific
+2024-12-05T19:41:57.2033132+00:00:Thread#0:TestItem#10:runsOnOneOtherThreadSpecific:False
+2024-12-05T19:41:57.2033156+00:00:Thread#0:TestItem#10:runsOnOneOtherThreadUnspecific:False
+2024-12-05T19:41:57.2033208+00:00:Thread#0:Scheduler: using testitem #10 for thread 0
+2024-12-05T19:41:57.2034860+00:00:Thread#0:Scheduler: Test #10 is scheduled for thread
+2024-12-05T19:41:57.2035621+00:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2024-12-05T19:41:57.3593570+00:00:Thread#0: Test #9/0 is finished on thread #0 as Succeeded within 16.1939656 seconds
+2024-12-05T19:41:57.3603671+00:00:Thread#0: Test #10/0 is started on thread #0
+2024-12-05T19:41:57.3653608+00:00:2024-12-05T19:41:57.3643486+00:00:Thread#0:B:Given I Navigate to ENSEK website
+2024-12-05T19:42:00.8926351+00:00:2024-12-05T19:42:00.8908796+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.GivenINavigateToENSEKWebsite() (3.5s)
+2024-12-05T19:42:00.8937424+00:00:2024-12-05T19:42:00.8933988+00:00:Thread#0:B:Then The user should be in ENSEK homepage
+2024-12-05T19:42:02.9355581+00:00:2024-12-05T19:42:02.9352838+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.ThenTheUserShouldBeInENSEKHomepage() (2.0s)
+2024-12-05T19:42:02.9360970+00:00:2024-12-05T19:42:02.9358874+00:00:Thread#0:B:When I click on Buy Energy button
+2024-12-05T19:42:03.3079477+00:00:2024-12-05T19:42:03.3077352+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.WhenIClickOnBuyEnergyButton() (0.4s)
+2024-12-05T19:42:03.3082168+00:00:2024-12-05T19:42:03.3081113+00:00:Thread#0:B:And I click on Reset button
+2024-12-05T19:42:03.6804731+00:00:2024-12-05T19:42:03.6801763+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.WhenIClickOnResetButton() (0.4s)
+2024-12-05T19:42:03.6809419+00:00:2024-12-05T19:42:03.6807283+00:00:Thread#0:B:Then the user should be navigated to Buy Energy page
+2024-12-05T19:42:05.7305497+00:00:2024-12-05T19:42:05.7303124+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.ThenTheUserShouldBeNavigatedToPage("Buy Energy") (2.0s)
+2024-12-05T19:42:05.7308100+00:00:2024-12-05T19:42:05.7307119+00:00:Thread#0:B:And the user should see the list of energy type with details
+2024-12-05T19:42:05.7309448+00:00:2024-12-05T19:42:05.7308774+00:00:Thread#0:B:  --- table step argument ---
+2024-12-05T19:42:05.7311209+00:00:2024-12-05T19:42:05.7310116+00:00:Thread#0:B:  | EnergyType  | Price            | QuantityOfUnitsAvailable | NumberOfUnitsRequired |
+2024-12-05T19:42:05.7312839+00:00:2024-12-05T19:42:05.7311997+00:00:Thread#0:B:  | Gas         | £0.34 per m3     | 3000                     | 0                     |
+2024-12-05T19:42:05.7314402+00:00:2024-12-05T19:42:05.7313487+00:00:Thread#0:B:  | Nuclear     | £0.56 per MW     | 0                        | Not Available         |
+2024-12-05T19:42:05.7315846+00:00:2024-12-05T19:42:05.7315102+00:00:Thread#0:B:  | Electricity | £0.47 per kWh    | 4322                     | 0                     |
+2024-12-05T19:42:05.7317460+00:00:2024-12-05T19:42:05.7316652+00:00:Thread#0:B:  | Oil         | £0.50 per Litres | 20                       | 0                     |
+2024-12-05T19:42:06.0238946+00:00:2024-12-05T19:42:06.0236541+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.ThenTheUserShouldSeeTheListOfEnergyTypeWithDetails(System.Collection...) (0.3s)
+2024-12-05T19:42:06.0241505+00:00:2024-12-05T19:42:06.0240564+00:00:Thread#0:B:When I enter 20 units required for gas energy type
+2024-12-05T19:42:06.1713346+00:00:2024-12-05T19:42:06.1710530+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.WhenIEnterUnitsRequiredForEnergyType(20, "gas") (0.1s)
+2024-12-05T19:42:06.1717714+00:00:2024-12-05T19:42:06.1715569+00:00:Thread#0:B:And I click on Buy button for gas energy type
+2024-12-05T19:42:06.5811160+00:00:2024-12-05T19:42:06.5808484+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.WhenIClickOnBuyButtonForEnergyType("gas") (0.4s)
+2024-12-05T19:42:06.5816111+00:00:2024-12-05T19:42:06.5813454+00:00:Thread#0:B:Then the User should see Sale Confirmed! With message Thank you for your purchase of 20 units of Gas We have popped it in the post and it will be with you shortly.There are now 2980 units of Gas left in our stores.
+2024-12-05T19:42:10.6608548+00:00:2024-12-05T19:42:10.6605986+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.ThenTheUserShouldSeeWithMessage("Sale Confirmed!", "Thank you for you...") (4.1s)
+2024-12-05T19:42:10.6612819+00:00:2024-12-05T19:42:10.6611305+00:00:Thread#0:B:When the user clicks on Buy more button
+2024-12-05T19:42:10.9930116+00:00:2024-12-05T19:42:10.9924436+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.WhenTheUserClicksOnBuyMoreButton() (0.3s)
+2024-12-05T19:42:10.9934868+00:00:2024-12-05T19:42:10.9932974+00:00:Thread#0:B:Then the user should be navigated to Buy Energy page
+2024-12-05T19:42:13.0418410+00:00:2024-12-05T19:42:13.0414806+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.ThenTheUserShouldBeNavigatedToPage("Buy Energy") (2.0s)
+2024-12-05T19:42:13.0424441+00:00:2024-12-05T19:42:13.0421150+00:00:Thread#0:B:And the user should see the list of energy type with details
+2024-12-05T19:42:13.0427749+00:00:2024-12-05T19:42:13.0426260+00:00:Thread#0:B:  --- table step argument ---
+2024-12-05T19:42:13.0430867+00:00:2024-12-05T19:42:13.0429155+00:00:Thread#0:B:  | EnergyType  | Price            | QuantityOfUnitsAvailable | NumberOfUnitsRequired |
+2024-12-05T19:42:13.0436075+00:00:2024-12-05T19:42:13.0433308+00:00:Thread#0:B:  | Gas         | £0.34 per m3     | 2980                     | 0                     |
+2024-12-05T19:42:13.0439225+00:00:2024-12-05T19:42:13.0437985+00:00:Thread#0:B:  | Nuclear     | £0.56 per MW     | 0                        | Not Available         |
+2024-12-05T19:42:13.0441533+00:00:2024-12-05T19:42:13.0440775+00:00:Thread#0:B:  | Electricity | £0.47 per kWh    | 4322                     | 0                     |
+2024-12-05T19:42:13.0443682+00:00:2024-12-05T19:42:13.0442394+00:00:Thread#0:B:  | Oil         | £0.50 per Litres | 20                       | 0                     |
+2024-12-05T19:42:13.3493616+00:00:2024-12-05T19:42:13.3491737+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.ThenTheUserShouldSeeTheListOfEnergyTypeWithDetails(System.Collection...) (0.3s)
+2024-12-05T19:42:13.3496061+00:00:2024-12-05T19:42:13.3495204+00:00:Thread#0:B:When I enter 20 units required for gas energy type
+2024-12-05T19:42:13.4919414+00:00:2024-12-05T19:42:13.4917117+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.WhenIEnterUnitsRequiredForEnergyType(20, "gas") (0.1s)
+2024-12-05T19:42:13.4922687+00:00:2024-12-05T19:42:13.4921560+00:00:Thread#0:B:And I click on Buy button for gas energy type
+2024-12-05T19:42:14.3013214+00:00:2024-12-05T19:42:14.3009587+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.WhenIClickOnBuyButtonForEnergyType("gas") (0.8s)
+2024-12-05T19:42:14.3019823+00:00:2024-12-05T19:42:14.3016065+00:00:Thread#0:B:Then the User should see Sale Confirmed! With message Thank you for your purchase of 20 units of Gas We have popped it in the post and it will be with you shortly.There are now 2960 units of Gas left in our stores.
+2024-12-05T19:42:18.3861235+00:00:2024-12-05T19:42:18.3858072+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.ThenTheUserShouldSeeWithMessage("Sale Confirmed!", "Thank you for you...") (4.1s)
+2024-12-05T19:42:18.3866910+00:00:2024-12-05T19:42:18.3865323+00:00:Thread#0:B:When the user clicks on Buy more button
+2024-12-05T19:42:18.6040521+00:00:2024-12-05T19:42:18.6037264+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.WhenTheUserClicksOnBuyMoreButton() (0.2s)
+2024-12-05T19:42:18.6046594+00:00:2024-12-05T19:42:18.6044471+00:00:Thread#0:B:Then the user should be navigated to Buy Energy page
+2024-12-05T19:42:20.6490120+00:00:2024-12-05T19:42:20.6487459+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.ThenTheUserShouldBeNavigatedToPage("Buy Energy") (2.0s)
+2024-12-05T19:42:20.6493484+00:00:2024-12-05T19:42:20.6492287+00:00:Thread#0:B:And the user should see the list of energy type with details
+2024-12-05T19:42:20.6495470+00:00:2024-12-05T19:42:20.6494449+00:00:Thread#0:B:  --- table step argument ---
+2024-12-05T19:42:20.6497391+00:00:2024-12-05T19:42:20.6496433+00:00:Thread#0:B:  | EnergyType  | Price            | QuantityOfUnitsAvailable | NumberOfUnitsRequired |
+2024-12-05T19:42:20.6499315+00:00:2024-12-05T19:42:20.6498290+00:00:Thread#0:B:  | Gas         | £0.34 per m3     | 2960                     | 0                     |
+2024-12-05T19:42:20.6501172+00:00:2024-12-05T19:42:20.6500253+00:00:Thread#0:B:  | Nuclear     | £0.56 per MW     | 0                        | Not Available         |
+2024-12-05T19:42:20.6503013+00:00:2024-12-05T19:42:20.6502086+00:00:Thread#0:B:  | Electricity | £0.47 per kWh    | 4322                     | 0                     |
+2024-12-05T19:42:20.6504880+00:00:2024-12-05T19:42:20.6503887+00:00:Thread#0:B:  | Oil         | £0.50 per Litres | 20                       | 0                     |
+2024-12-05T19:42:20.9400926+00:00:2024-12-05T19:42:20.9399042+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.ThenTheUserShouldSeeTheListOfEnergyTypeWithDetails(System.Collection...) (0.3s)
+2024-12-05T19:42:20.9406414+00:00:Thread#0:Scheduler: get next test for thread 0
+2024-12-05T19:42:20.9406652+00:00:Thread#:Scheduler: testitem #11 from normal test queue 
+2024-12-05T19:42:20.9406764+00:00:Thread#0:Scheduler: considering testitem #11 for thread 0
+2024-12-05T19:42:20.9407441+00:00:Thread#0:TestItem#11:testItemMatchesCurrentTestThread:UnSpecific
+2024-12-05T19:42:20.9407493+00:00:Thread#0:TestItem#11:runsOnOneOtherThreadSpecific:False
+2024-12-05T19:42:20.9407509+00:00:Thread#0:TestItem#11:runsOnOneOtherThreadUnspecific:False
+2024-12-05T19:42:20.9407534+00:00:Thread#0:Scheduler: using testitem #11 for thread 0
+2024-12-05T19:42:20.9407750+00:00:Thread#0:Scheduler: Test #11 is scheduled for thread
+2024-12-05T19:42:20.9408049+00:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2024-12-05T19:42:21.0967577+00:00:Thread#0: Test #10/0 is finished on thread #0 as Succeeded within 23.7362468 seconds
+2024-12-05T19:42:21.0979789+00:00:Thread#0: Test #11/0 is started on thread #0
+2024-12-05T19:42:21.1006516+00:00:2024-12-05T19:42:21.1002967+00:00:Thread#0:B:Given I Navigate to ENSEK website
+2024-12-05T19:42:24.5584073+00:00:2024-12-05T19:42:24.5580520+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.GivenINavigateToENSEKWebsite() (3.5s)
+2024-12-05T19:42:24.5588903+00:00:2024-12-05T19:42:24.5587779+00:00:Thread#0:B:Then The user should be in ENSEK homepage
+2024-12-05T19:42:26.6191917+00:00:2024-12-05T19:42:26.6188165+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.ThenTheUserShouldBeInENSEKHomepage() (2.1s)
+2024-12-05T19:42:26.6199067+00:00:2024-12-05T19:42:26.6194577+00:00:Thread#0:B:When I click on Buy Energy button
+2024-12-05T19:42:26.9919137+00:00:2024-12-05T19:42:26.9915963+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.WhenIClickOnBuyEnergyButton() (0.4s)
+2024-12-05T19:42:26.9923350+00:00:2024-12-05T19:42:26.9920971+00:00:Thread#0:B:And I click on Reset button
+2024-12-05T19:42:27.3662790+00:00:2024-12-05T19:42:27.3659542+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.WhenIClickOnResetButton() (0.4s)
+2024-12-05T19:42:27.3668110+00:00:2024-12-05T19:42:27.3666146+00:00:Thread#0:B:Then the user should be navigated to Buy Energy page
+2024-12-05T19:42:29.4044099+00:00:2024-12-05T19:42:29.4042007+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.ThenTheUserShouldBeNavigatedToPage("Buy Energy") (2.0s)
+2024-12-05T19:42:29.4047861+00:00:2024-12-05T19:42:29.4046257+00:00:Thread#0:B:And the user should see the list of energy type with details
+2024-12-05T19:42:29.4049707+00:00:2024-12-05T19:42:29.4048768+00:00:Thread#0:B:  --- table step argument ---
+2024-12-05T19:42:29.4051450+00:00:2024-12-05T19:42:29.4050521+00:00:Thread#0:B:  | EnergyType  | Price            | QuantityOfUnitsAvailable | NumberOfUnitsRequired |
+2024-12-05T19:42:29.4053327+00:00:2024-12-05T19:42:29.4052115+00:00:Thread#0:B:  | Gas         | £0.34 per m3     | 3000                     | 0                     |
+2024-12-05T19:42:29.4055269+00:00:2024-12-05T19:42:29.4054130+00:00:Thread#0:B:  | Nuclear     | £0.56 per MW     | 0                        | Not Available         |
+2024-12-05T19:42:29.4057618+00:00:2024-12-05T19:42:29.4056460+00:00:Thread#0:B:  | Electricity | £0.47 per kWh    | 4322                     | 0                     |
+2024-12-05T19:42:29.4059952+00:00:2024-12-05T19:42:29.4058778+00:00:Thread#0:B:  | Oil         | £0.50 per Litres | 20                       | 0                     |
+2024-12-05T19:42:29.7073635+00:00:2024-12-05T19:42:29.7071640+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.ThenTheUserShouldSeeTheListOfEnergyTypeWithDetails(System.Collection...) (0.3s)
+2024-12-05T19:42:29.7075927+00:00:2024-12-05T19:42:29.7075119+00:00:Thread#0:B:When I enter 4323 units required for electricity energy type
+2024-12-05T19:42:29.8835104+00:00:2024-12-05T19:42:29.8833070+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.WhenIEnterUnitsRequiredForEnergyType(4323, "electricity") (0.2s)
+2024-12-05T19:42:29.8838032+00:00:2024-12-05T19:42:29.8836844+00:00:Thread#0:B:Then The user should see buy button disabled
+2024-12-05T19:42:31.9151251+00:00:2024-12-05T19:42:31.9146722+00:00:Thread#0:T:error: no such element: Unable to locate element: {"method":"link text","selector":"Buy more »"}
+2024-12-05T19:42:31.9159781+00:00:2024-12-05T19:42:31.9155669+00:00:Thread#0:T:  (Session info: chrome=131.0.6778.87); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception (2.0s)
+2024-12-05T19:42:31.9165826+00:00:2024-12-05T19:42:31.9162017+00:00:Thread#0:B:When I enter 20 units required for electricity energy type
+2024-12-05T19:42:31.9203578+00:00:2024-12-05T19:42:31.9198616+00:00:Thread#0:T:skipped because of previous errors
+2024-12-05T19:42:31.9209333+00:00:2024-12-05T19:42:31.9207117+00:00:Thread#0:B:Then The user should see buy button enabled
+2024-12-05T19:42:31.9217348+00:00:2024-12-05T19:42:31.9213601+00:00:Thread#0:T:skipped because of previous errors
+2024-12-05T19:42:31.9230843+00:00:Thread#0:TestItem#11:Scheduler: reschedule tests for testitem #11
+2024-12-05T19:42:31.9239305+00:00:Thread#0:Scheduler: get next test for thread 0
+2024-12-05T19:42:31.9239548+00:00:Thread#:Scheduler: testitem #12 from normal test queue 
+2024-12-05T19:42:31.9239587+00:00:Thread#0:Scheduler: considering testitem #12 for thread 0
+2024-12-05T19:42:31.9240135+00:00:Thread#0:TestItem#12:testItemMatchesCurrentTestThread:UnSpecific
+2024-12-05T19:42:31.9240169+00:00:Thread#0:TestItem#12:runsOnOneOtherThreadSpecific:False
+2024-12-05T19:42:31.9240186+00:00:Thread#0:TestItem#12:runsOnOneOtherThreadUnspecific:False
+2024-12-05T19:42:31.9240208+00:00:Thread#0:Scheduler: using testitem #12 for thread 0
+2024-12-05T19:42:31.9240407+00:00:Thread#0:Scheduler: Test #12 is scheduled for thread
+2024-12-05T19:42:31.9240693+00:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2024-12-05T19:42:32.0248011+00:00:Thread#0: Test #11/0 is finished on thread #0 as Failed within 10.9263929 seconds
+2024-12-05T19:42:32.0276039+00:00:Thread#0: Test #12/0 is started on thread #0
+2024-12-05T19:42:32.0315445+00:00:2024-12-05T19:42:32.0311139+00:00:Thread#0:B:Given I Navigate to ENSEK website
+2024-12-05T19:42:35.5200321+00:00:2024-12-05T19:42:35.5196878+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.GivenINavigateToENSEKWebsite() (3.5s)
+2024-12-05T19:42:35.5205444+00:00:2024-12-05T19:42:35.5203474+00:00:Thread#0:B:Then The user should be in ENSEK homepage
+2024-12-05T19:42:37.5684924+00:00:2024-12-05T19:42:37.5680046+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.ThenTheUserShouldBeInENSEKHomepage() (2.0s)
+2024-12-05T19:42:37.5691233+00:00:2024-12-05T19:42:37.5688773+00:00:Thread#0:B:When I click on Buy Energy button
+2024-12-05T19:42:37.9479056+00:00:2024-12-05T19:42:37.9475759+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.WhenIClickOnBuyEnergyButton() (0.4s)
+2024-12-05T19:42:37.9483132+00:00:2024-12-05T19:42:37.9480635+00:00:Thread#0:B:And I click on Reset button
+2024-12-05T19:42:38.3169746+00:00:2024-12-05T19:42:38.3167445+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.WhenIClickOnResetButton() (0.4s)
+2024-12-05T19:42:38.3172569+00:00:2024-12-05T19:42:38.3171667+00:00:Thread#0:B:Then the user should be navigated to Buy Energy page
+2024-12-05T19:42:40.3633880+00:00:2024-12-05T19:42:40.3631856+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.ThenTheUserShouldBeNavigatedToPage("Buy Energy") (2.0s)
+2024-12-05T19:42:40.3636907+00:00:2024-12-05T19:42:40.3635808+00:00:Thread#0:B:And the user should see the list of energy type with details
+2024-12-05T19:42:40.3638621+00:00:2024-12-05T19:42:40.3637746+00:00:Thread#0:B:  --- table step argument ---
+2024-12-05T19:42:40.3640300+00:00:2024-12-05T19:42:40.3639523+00:00:Thread#0:B:  | EnergyType  | Price            | QuantityOfUnitsAvailable | NumberOfUnitsRequired |
+2024-12-05T19:42:40.3641995+00:00:2024-12-05T19:42:40.3641050+00:00:Thread#0:B:  | Gas         | £0.34 per m3     | 3000                     | 0                     |
+2024-12-05T19:42:40.3643620+00:00:2024-12-05T19:42:40.3642711+00:00:Thread#0:B:  | Nuclear     | £0.56 per MW     | 0                        | Not Available         |
+2024-12-05T19:42:40.3645135+00:00:2024-12-05T19:42:40.3644294+00:00:Thread#0:B:  | Electricity | £0.47 per kWh    | 4322                     | 0                     |
+2024-12-05T19:42:40.3646663+00:00:2024-12-05T19:42:40.3645859+00:00:Thread#0:B:  | Oil         | £0.50 per Litres | 20                       | 0                     |
+2024-12-05T19:42:40.6594844+00:00:2024-12-05T19:42:40.6592816+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.ThenTheUserShouldSeeTheListOfEnergyTypeWithDetails(System.Collection...) (0.3s)
+2024-12-05T19:42:40.6597533+00:00:2024-12-05T19:42:40.6596419+00:00:Thread#0:B:When I enter 0 units required for electricity energy type
+2024-12-05T19:42:40.8308597+00:00:2024-12-05T19:42:40.8305817+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.WhenIEnterUnitsRequiredForEnergyType(0, "electricity") (0.2s)
+2024-12-05T19:42:40.8312644+00:00:2024-12-05T19:42:40.8311693+00:00:Thread#0:B:Then The user should see buy button disabled
+2024-12-05T19:42:42.8720636+00:00:2024-12-05T19:42:42.8716610+00:00:Thread#0:T:error: no such element: Unable to locate element: {"method":"link text","selector":"Buy more »"}
+2024-12-05T19:42:42.8730608+00:00:2024-12-05T19:42:42.8725815+00:00:Thread#0:T:  (Session info: chrome=131.0.6778.87); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception (2.0s)
+2024-12-05T19:42:42.8743350+00:00:Thread#0:TestItem#12:Scheduler: reschedule tests for testitem #12
+2024-12-05T19:42:42.8747934+00:00:Thread#0:Scheduler: get next test for thread 0
+2024-12-05T19:42:42.8748609+00:00:Thread#:Scheduler: testitem #13 from normal test queue 
+2024-12-05T19:42:42.8748736+00:00:Thread#0:Scheduler: considering testitem #13 for thread 0
+2024-12-05T19:42:42.8749141+00:00:Thread#0:TestItem#13:testItemMatchesCurrentTestThread:UnSpecific
+2024-12-05T19:42:42.8749172+00:00:Thread#0:TestItem#13:runsOnOneOtherThreadSpecific:False
+2024-12-05T19:42:42.8749189+00:00:Thread#0:TestItem#13:runsOnOneOtherThreadUnspecific:False
+2024-12-05T19:42:42.8749203+00:00:Thread#0:Scheduler: using testitem #13 for thread 0
+2024-12-05T19:42:42.8749720+00:00:Thread#0:Scheduler: Test #13 is scheduled for thread
+2024-12-05T19:42:42.8750060+00:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2024-12-05T19:42:43.0380385+00:00:Thread#0: Test #12/0 is finished on thread #0 as Failed within 11.0101654 seconds
+2024-12-05T19:42:43.0422586+00:00:Thread#0: Test #13/0 is started on thread #0
+2024-12-05T19:42:43.0472910+00:00:2024-12-05T19:42:43.0465478+00:00:Thread#0:B:Given I Navigate to ENSEK website
+2024-12-05T19:42:46.5340577+00:00:2024-12-05T19:42:46.5338284+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.GivenINavigateToENSEKWebsite() (3.5s)
+2024-12-05T19:42:46.5344342+00:00:2024-12-05T19:42:46.5342896+00:00:Thread#0:B:Then The user should be in ENSEK homepage
+2024-12-05T19:42:48.5817662+00:00:2024-12-05T19:42:48.5814107+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.ThenTheUserShouldBeInENSEKHomepage() (2.0s)
+2024-12-05T19:42:48.5822097+00:00:2024-12-05T19:42:48.5819861+00:00:Thread#0:B:When I click on Buy Energy button
+2024-12-05T19:42:48.9476438+00:00:2024-12-05T19:42:48.9473788+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.WhenIClickOnBuyEnergyButton() (0.4s)
+2024-12-05T19:42:48.9481207+00:00:2024-12-05T19:42:48.9479461+00:00:Thread#0:B:And I click on Reset button
+2024-12-05T19:42:49.3238721+00:00:2024-12-05T19:42:49.3234277+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.WhenIClickOnResetButton() (0.4s)
+2024-12-05T19:42:49.3246576+00:00:2024-12-05T19:42:49.3242576+00:00:Thread#0:B:Then the user should be navigated to Buy Energy page
+2024-12-05T19:42:51.3791995+00:00:2024-12-05T19:42:51.3790008+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.ThenTheUserShouldBeNavigatedToPage("Buy Energy") (2.1s)
+2024-12-05T19:42:51.3794641+00:00:2024-12-05T19:42:51.3793703+00:00:Thread#0:B:And the user should see the list of energy type with details
+2024-12-05T19:42:51.3796514+00:00:2024-12-05T19:42:51.3795627+00:00:Thread#0:B:  --- table step argument ---
+2024-12-05T19:42:51.3798166+00:00:2024-12-05T19:42:51.3797163+00:00:Thread#0:B:  | EnergyType  | Price            | QuantityOfUnitsAvailable | NumberOfUnitsRequired |
+2024-12-05T19:42:51.3799543+00:00:2024-12-05T19:42:51.3798827+00:00:Thread#0:B:  | Gas         | £0.34 per m3     | 3000                     | 0                     |
+2024-12-05T19:42:51.3801168+00:00:2024-12-05T19:42:51.3800240+00:00:Thread#0:B:  | Nuclear     | £0.56 per MW     | 0                        | Not Available         |
+2024-12-05T19:42:51.3802601+00:00:2024-12-05T19:42:51.3801851+00:00:Thread#0:B:  | Electricity | £0.47 per kWh    | 4322                     | 0                     |
+2024-12-05T19:42:51.3804081+00:00:2024-12-05T19:42:51.3803231+00:00:Thread#0:B:  | Oil         | £0.50 per Litres | 20                       | 0                     |
+2024-12-05T19:42:51.7563092+00:00:2024-12-05T19:42:51.7559255+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.ThenTheUserShouldSeeTheListOfEnergyTypeWithDetails(System.Collection...) (0.4s)
+2024-12-05T19:42:51.7568162+00:00:2024-12-05T19:42:51.7566364+00:00:Thread#0:B:When I enter 20 units required for electricity energy type
+2024-12-05T19:42:51.9814529+00:00:2024-12-05T19:42:51.9812398+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.WhenIEnterUnitsRequiredForEnergyType(20, "electricity") (0.2s)
+2024-12-05T19:42:51.9817531+00:00:2024-12-05T19:42:51.9816309+00:00:Thread#0:B:And I click on Buy button for electricity energy type
+2024-12-05T19:42:52.4414977+00:00:2024-12-05T19:42:52.4411606+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.WhenIClickOnBuyButtonForEnergyType("electricity") (0.5s)
+2024-12-05T19:42:52.4422099+00:00:2024-12-05T19:42:52.4418251+00:00:Thread#0:B:Then the User should see Sale Confirmed! With message Thank you for your purchase of 20 units of Electricity We have popped it in the post and it will be with you shortly.There are now 4302 units of Electricity left in our stores.
+2024-12-05T19:42:56.5224587+00:00:2024-12-05T19:42:56.5222635+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.ThenTheUserShouldSeeWithMessage("Sale Confirmed!", "Thank you for you...") (4.1s)
+2024-12-05T19:42:56.5227461+00:00:2024-12-05T19:42:56.5226550+00:00:Thread#0:B:When the user clicks on Buy more button
+2024-12-05T19:42:56.7476695+00:00:2024-12-05T19:42:56.7474193+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.WhenTheUserClicksOnBuyMoreButton() (0.2s)
+2024-12-05T19:42:56.7481011+00:00:2024-12-05T19:42:56.7479381+00:00:Thread#0:B:Then the user should be navigated to Buy Energy page
+2024-12-05T19:42:58.7940430+00:00:2024-12-05T19:42:58.7938404+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.ThenTheUserShouldBeNavigatedToPage("Buy Energy") (2.0s)
+2024-12-05T19:42:58.7943383+00:00:2024-12-05T19:42:58.7942275+00:00:Thread#0:B:And the user should see the list of energy type with details
+2024-12-05T19:42:58.7945045+00:00:2024-12-05T19:42:58.7944168+00:00:Thread#0:B:  --- table step argument ---
+2024-12-05T19:42:58.7946829+00:00:2024-12-05T19:42:58.7946087+00:00:Thread#0:B:  | EnergyType  | Price            | QuantityOfUnitsAvailable | NumberOfUnitsRequired |
+2024-12-05T19:42:58.7948222+00:00:2024-12-05T19:42:58.7947589+00:00:Thread#0:B:  | Gas         | £0.34 per m3     | 3000                     | 0                     |
+2024-12-05T19:42:58.7949979+00:00:2024-12-05T19:42:58.7949025+00:00:Thread#0:B:  | Nuclear     | £0.56 per MW     | 0                        | Not Available         |
+2024-12-05T19:42:58.7951620+00:00:2024-12-05T19:42:58.7950808+00:00:Thread#0:B:  | Electricity | £0.47 per kWh    | 4302                     | 0                     |
+2024-12-05T19:42:58.7953236+00:00:2024-12-05T19:42:58.7952525+00:00:Thread#0:B:  | Oil         | £0.50 per Litres | 20                       | 0                     |
+2024-12-05T19:42:59.0807026+00:00:2024-12-05T19:42:59.0804941+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.ThenTheUserShouldSeeTheListOfEnergyTypeWithDetails(System.Collection...) (0.3s)
+2024-12-05T19:42:59.0814055+00:00:Thread#0:Scheduler: get next test for thread 0
+2024-12-05T19:42:59.0814243+00:00:Thread#:Scheduler: testitem #14 from normal test queue 
+2024-12-05T19:42:59.0814277+00:00:Thread#0:Scheduler: considering testitem #14 for thread 0
+2024-12-05T19:42:59.0814883+00:00:Thread#0:TestItem#14:testItemMatchesCurrentTestThread:UnSpecific
+2024-12-05T19:42:59.0814918+00:00:Thread#0:TestItem#14:runsOnOneOtherThreadSpecific:False
+2024-12-05T19:42:59.0814944+00:00:Thread#0:TestItem#14:runsOnOneOtherThreadUnspecific:False
+2024-12-05T19:42:59.0814958+00:00:Thread#0:Scheduler: using testitem #14 for thread 0
+2024-12-05T19:42:59.0815145+00:00:Thread#0:Scheduler: Test #14 is scheduled for thread
+2024-12-05T19:42:59.0815409+00:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2024-12-05T19:42:59.2047571+00:00:Thread#0: Test #13/0 is finished on thread #0 as Succeeded within 16.160474 seconds
+2024-12-05T19:42:59.2088080+00:00:Thread#0: Test #14/0 is started on thread #0
+2024-12-05T19:42:59.2152038+00:00:2024-12-05T19:42:59.2146838+00:00:Thread#0:B:Given I Navigate to ENSEK website
+2024-12-05T19:43:02.6815675+00:00:2024-12-05T19:43:02.6813093+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.GivenINavigateToENSEKWebsite() (3.5s)
+2024-12-05T19:43:02.6820472+00:00:2024-12-05T19:43:02.6818812+00:00:Thread#0:B:Then The user should be in ENSEK homepage
+2024-12-05T19:43:04.7397905+00:00:2024-12-05T19:43:04.7395118+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.ThenTheUserShouldBeInENSEKHomepage() (2.1s)
+2024-12-05T19:43:04.7403646+00:00:2024-12-05T19:43:04.7401080+00:00:Thread#0:B:When I click on Buy Energy button
+2024-12-05T19:43:05.1149018+00:00:2024-12-05T19:43:05.1146660+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.WhenIClickOnBuyEnergyButton() (0.4s)
+2024-12-05T19:43:05.1151370+00:00:2024-12-05T19:43:05.1150432+00:00:Thread#0:B:And I click on Reset button
+2024-12-05T19:43:05.4701252+00:00:2024-12-05T19:43:05.4696933+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.WhenIClickOnResetButton() (0.4s)
+2024-12-05T19:43:05.4709242+00:00:2024-12-05T19:43:05.4706351+00:00:Thread#0:B:Then the user should be navigated to Buy Energy page
+2024-12-05T19:43:07.5154700+00:00:2024-12-05T19:43:07.5152255+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.ThenTheUserShouldBeNavigatedToPage("Buy Energy") (2.0s)
+2024-12-05T19:43:07.5157999+00:00:2024-12-05T19:43:07.5156999+00:00:Thread#0:B:And the user should see the list of energy type with details
+2024-12-05T19:43:07.5159755+00:00:2024-12-05T19:43:07.5158814+00:00:Thread#0:B:  --- table step argument ---
+2024-12-05T19:43:07.5161214+00:00:2024-12-05T19:43:07.5160495+00:00:Thread#0:B:  | EnergyType  | Price            | QuantityOfUnitsAvailable | NumberOfUnitsRequired |
+2024-12-05T19:43:07.5162948+00:00:2024-12-05T19:43:07.5161888+00:00:Thread#0:B:  | Gas         | £0.34 per m3     | 3000                     | 0                     |
+2024-12-05T19:43:07.5164394+00:00:2024-12-05T19:43:07.5163604+00:00:Thread#0:B:  | Nuclear     | £0.56 per MW     | 0                        | Not Available         |
+2024-12-05T19:43:07.5165735+00:00:2024-12-05T19:43:07.5165029+00:00:Thread#0:B:  | Electricity | £0.47 per kWh    | 4322                     | 0                     |
+2024-12-05T19:43:07.5167112+00:00:2024-12-05T19:43:07.5166307+00:00:Thread#0:B:  | Oil         | £0.50 per Litres | 20                       | 0                     |
+2024-12-05T19:43:07.8092173+00:00:2024-12-05T19:43:07.8090022+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.ThenTheUserShouldSeeTheListOfEnergyTypeWithDetails(System.Collection...) (0.3s)
+2024-12-05T19:43:07.8094585+00:00:2024-12-05T19:43:07.8093771+00:00:Thread#0:B:When I enter 20 units required for Electricity energy type
+2024-12-05T19:43:07.9755403+00:00:2024-12-05T19:43:07.9751339+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.WhenIEnterUnitsRequiredForEnergyType(20, "Electricity") (0.2s)
+2024-12-05T19:43:07.9759642+00:00:2024-12-05T19:43:07.9758315+00:00:Thread#0:B:And I click on Buy button for Electricity energy type
+2024-12-05T19:43:08.4126431+00:00:2024-12-05T19:43:08.4124164+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.WhenIClickOnBuyButtonForEnergyType("Electricity") (0.4s)
+2024-12-05T19:43:08.4129242+00:00:2024-12-05T19:43:08.4128163+00:00:Thread#0:B:Then the User should see Sale Confirmed! With message Thank you for your purchase of 20 units of Electricity We have popped it in the post and it will be with you shortly.There are now 4302 units of Electricity left in our stores.
+2024-12-05T19:43:12.4989306+00:00:2024-12-05T19:43:12.4987391+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.ThenTheUserShouldSeeWithMessage("Sale Confirmed!", "Thank you for you...") (4.1s)
+2024-12-05T19:43:12.4992872+00:00:2024-12-05T19:43:12.4991516+00:00:Thread#0:B:When the user clicks on Buy more button
+2024-12-05T19:43:12.7441444+00:00:2024-12-05T19:43:12.7439098+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.WhenTheUserClicksOnBuyMoreButton() (0.2s)
+2024-12-05T19:43:12.7445263+00:00:2024-12-05T19:43:12.7443634+00:00:Thread#0:B:Then the user should be navigated to Buy Energy page
+2024-12-05T19:43:14.7871174+00:00:2024-12-05T19:43:14.7868543+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.ThenTheUserShouldBeNavigatedToPage("Buy Energy") (2.0s)
+2024-12-05T19:43:14.7874551+00:00:2024-12-05T19:43:14.7872929+00:00:Thread#0:B:And the user should see the list of energy type with details
+2024-12-05T19:43:14.7876364+00:00:2024-12-05T19:43:14.7875511+00:00:Thread#0:B:  --- table step argument ---
+2024-12-05T19:43:14.7878355+00:00:2024-12-05T19:43:14.7877384+00:00:Thread#0:B:  | EnergyType  | Price            | QuantityOfUnitsAvailable | NumberOfUnitsRequired |
+2024-12-05T19:43:14.7879864+00:00:2024-12-05T19:43:14.7879116+00:00:Thread#0:B:  | Gas         | £0.34 per m3     | 3000                     | 0                     |
+2024-12-05T19:43:14.7881663+00:00:2024-12-05T19:43:14.7880709+00:00:Thread#0:B:  | Nuclear     | £0.56 per MW     | 0                        | Not Available         |
+2024-12-05T19:43:14.7883661+00:00:2024-12-05T19:43:14.7882518+00:00:Thread#0:B:  | Electricity | £0.47 per kWh    | 4302                     | 0                     |
+2024-12-05T19:43:14.7885050+00:00:2024-12-05T19:43:14.7884384+00:00:Thread#0:B:  | Oil         | £0.50 per Litres | 20                       | 0                     |
+2024-12-05T19:43:15.0842970+00:00:2024-12-05T19:43:15.0841001+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.ThenTheUserShouldSeeTheListOfEnergyTypeWithDetails(System.Collection...) (0.3s)
+2024-12-05T19:43:15.0845778+00:00:2024-12-05T19:43:15.0844727+00:00:Thread#0:B:When I enter 20 units required for Electricity energy type
+2024-12-05T19:43:15.2479858+00:00:2024-12-05T19:43:15.2477821+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.WhenIEnterUnitsRequiredForEnergyType(20, "Electricity") (0.2s)
+2024-12-05T19:43:15.2483046+00:00:2024-12-05T19:43:15.2481627+00:00:Thread#0:B:And I click on Buy button for Electricity energy type
+2024-12-05T19:43:15.6647987+00:00:2024-12-05T19:43:15.6645484+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.WhenIClickOnBuyButtonForEnergyType("Electricity") (0.4s)
+2024-12-05T19:43:15.6651531+00:00:2024-12-05T19:43:15.6650078+00:00:Thread#0:B:Then the User should see Sale Confirmed! With message Thank you for your purchase of 20 units of Electricity We have popped it in the post and it will be with you shortly.There are now 4282 units of Electricity left in our stores.
+2024-12-05T19:43:19.7612046+00:00:2024-12-05T19:43:19.7610092+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.ThenTheUserShouldSeeWithMessage("Sale Confirmed!", "Thank you for you...") (4.1s)
+2024-12-05T19:43:19.7615631+00:00:2024-12-05T19:43:19.7614333+00:00:Thread#0:B:When the user clicks on Buy more button
+2024-12-05T19:43:19.9772838+00:00:2024-12-05T19:43:19.9770814+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.WhenTheUserClicksOnBuyMoreButton() (0.2s)
+2024-12-05T19:43:19.9775307+00:00:2024-12-05T19:43:19.9774306+00:00:Thread#0:B:Then the user should be navigated to Buy Energy page
+2024-12-05T19:43:22.0198312+00:00:2024-12-05T19:43:22.0195756+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.ThenTheUserShouldBeNavigatedToPage("Buy Energy") (2.0s)
+2024-12-05T19:43:22.0204068+00:00:2024-12-05T19:43:22.0200690+00:00:Thread#0:B:And the user should see the list of energy type with details
+2024-12-05T19:43:22.0208143+00:00:2024-12-05T19:43:22.0205950+00:00:Thread#0:B:  --- table step argument ---
+2024-12-05T19:43:22.0210979+00:00:2024-12-05T19:43:22.0209605+00:00:Thread#0:B:  | EnergyType  | Price            | QuantityOfUnitsAvailable | NumberOfUnitsRequired |
+2024-12-05T19:43:22.0213027+00:00:2024-12-05T19:43:22.0212227+00:00:Thread#0:B:  | Gas         | £0.34 per m3     | 3000                     | 0                     |
+2024-12-05T19:43:22.0216073+00:00:2024-12-05T19:43:22.0214880+00:00:Thread#0:B:  | Nuclear     | £0.56 per MW     | 0                        | Not Available         |
+2024-12-05T19:43:22.0218661+00:00:2024-12-05T19:43:22.0217378+00:00:Thread#0:B:  | Electricity | £0.47 per kWh    | 4282                     | 0                     |
+2024-12-05T19:43:22.0220745+00:00:2024-12-05T19:43:22.0220137+00:00:Thread#0:B:  | Oil         | £0.50 per Litres | 20                       | 0                     |
+2024-12-05T19:43:22.3237798+00:00:2024-12-05T19:43:22.3235738+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.ThenTheUserShouldSeeTheListOfEnergyTypeWithDetails(System.Collection...) (0.3s)
+2024-12-05T19:43:22.3243940+00:00:Thread#0:Scheduler: get next test for thread 0
+2024-12-05T19:43:22.3244185+00:00:Thread#:Scheduler: testitem #15 from normal test queue 
+2024-12-05T19:43:22.3244238+00:00:Thread#0:Scheduler: considering testitem #15 for thread 0
+2024-12-05T19:43:22.3244790+00:00:Thread#0:TestItem#15:testItemMatchesCurrentTestThread:UnSpecific
+2024-12-05T19:43:22.3244838+00:00:Thread#0:TestItem#15:runsOnOneOtherThreadSpecific:False
+2024-12-05T19:43:22.3244865+00:00:Thread#0:TestItem#15:runsOnOneOtherThreadUnspecific:False
+2024-12-05T19:43:22.3244890+00:00:Thread#0:Scheduler: using testitem #15 for thread 0
+2024-12-05T19:43:22.3245170+00:00:Thread#0:Scheduler: Test #15 is scheduled for thread
+2024-12-05T19:43:22.3245820+00:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2024-12-05T19:43:22.4385005+00:00:Thread#0: Test #14/0 is finished on thread #0 as Succeeded within 23.2293724 seconds
+2024-12-05T19:43:22.4443451+00:00:Thread#0: Test #15/0 is started on thread #0
+2024-12-05T19:43:22.4473061+00:00:2024-12-05T19:43:22.4468786+00:00:Thread#0:B:Given I Navigate to ENSEK website
+2024-12-05T19:43:25.8852360+00:00:2024-12-05T19:43:25.8848007+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.GivenINavigateToENSEKWebsite() (3.4s)
+2024-12-05T19:43:25.8868565+00:00:2024-12-05T19:43:25.8856381+00:00:Thread#0:B:Then The user should be in ENSEK homepage
+2024-12-05T19:43:27.9533870+00:00:2024-12-05T19:43:27.9530341+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.ThenTheUserShouldBeInENSEKHomepage() (2.1s)
+2024-12-05T19:43:27.9539585+00:00:2024-12-05T19:43:27.9537305+00:00:Thread#0:B:When I click on Buy Energy button
+2024-12-05T19:43:28.3209445+00:00:2024-12-05T19:43:28.3206891+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.WhenIClickOnBuyEnergyButton() (0.4s)
+2024-12-05T19:43:28.3212548+00:00:2024-12-05T19:43:28.3211631+00:00:Thread#0:B:And I click on Reset button
+2024-12-05T19:43:28.6973588+00:00:2024-12-05T19:43:28.6969224+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.WhenIClickOnResetButton() (0.4s)
+2024-12-05T19:43:28.6996938+00:00:2024-12-05T19:43:28.6976225+00:00:Thread#0:B:Then the user should be navigated to Buy Energy page
+2024-12-05T19:43:30.7422613+00:00:2024-12-05T19:43:30.7420382+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.ThenTheUserShouldBeNavigatedToPage("Buy Energy") (2.0s)
+2024-12-05T19:43:30.7426234+00:00:2024-12-05T19:43:30.7424827+00:00:Thread#0:B:And the user should see the list of energy type with details
+2024-12-05T19:43:30.7428873+00:00:2024-12-05T19:43:30.7427415+00:00:Thread#0:B:  --- table step argument ---
+2024-12-05T19:43:30.7430774+00:00:2024-12-05T19:43:30.7430115+00:00:Thread#0:B:  | EnergyType  | Price            | QuantityOfUnitsAvailable | NumberOfUnitsRequired |
+2024-12-05T19:43:30.7432584+00:00:2024-12-05T19:43:30.7431422+00:00:Thread#0:B:  | Gas         | £0.34 per m3     | 3000                     | 0                     |
+2024-12-05T19:43:30.7434937+00:00:2024-12-05T19:43:30.7433873+00:00:Thread#0:B:  | Nuclear     | £0.56 per MW     | 0                        | Not Available         |
+2024-12-05T19:43:30.7436929+00:00:2024-12-05T19:43:30.7436077+00:00:Thread#0:B:  | Electricity | £0.47 per kWh    | 4322                     | 0                     |
+2024-12-05T19:43:30.7438623+00:00:2024-12-05T19:43:30.7437690+00:00:Thread#0:B:  | Oil         | £0.50 per Litres | 20                       | 0                     |
+2024-12-05T19:43:31.0398434+00:00:2024-12-05T19:43:31.0396304+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.ThenTheUserShouldSeeTheListOfEnergyTypeWithDetails(System.Collection...) (0.3s)
+2024-12-05T19:43:31.0400852+00:00:2024-12-05T19:43:31.0399899+00:00:Thread#0:B:When I enter 21 units required for Oil energy type
+2024-12-05T19:43:31.2229081+00:00:2024-12-05T19:43:31.2226112+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.WhenIEnterUnitsRequiredForEnergyType(21, "Oil") (0.2s)
+2024-12-05T19:43:31.2236061+00:00:2024-12-05T19:43:31.2232360+00:00:Thread#0:B:Then The user should see buy button disabled
+2024-12-05T19:43:33.2580369+00:00:2024-12-05T19:43:33.2575346+00:00:Thread#0:T:error: no such element: Unable to locate element: {"method":"link text","selector":"Buy more »"}
+2024-12-05T19:43:33.2587997+00:00:2024-12-05T19:43:33.2584893+00:00:Thread#0:T:  (Session info: chrome=131.0.6778.87); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception (2.0s)
+2024-12-05T19:43:33.2595173+00:00:2024-12-05T19:43:33.2591969+00:00:Thread#0:B:When I enter 5 units required for Oil energy type
+2024-12-05T19:43:33.2602781+00:00:2024-12-05T19:43:33.2599650+00:00:Thread#0:T:skipped because of previous errors
+2024-12-05T19:43:33.2610386+00:00:2024-12-05T19:43:33.2607237+00:00:Thread#0:B:Then The user should see buy button enabled
+2024-12-05T19:43:33.2618996+00:00:2024-12-05T19:43:33.2614987+00:00:Thread#0:T:skipped because of previous errors
+2024-12-05T19:43:33.2629009+00:00:Thread#0:TestItem#15:Scheduler: reschedule tests for testitem #15
+2024-12-05T19:43:33.2631745+00:00:Thread#0:Scheduler: get next test for thread 0
+2024-12-05T19:43:33.2632017+00:00:Thread#:Scheduler: testitem #16 from normal test queue 
+2024-12-05T19:43:33.2632056+00:00:Thread#0:Scheduler: considering testitem #16 for thread 0
+2024-12-05T19:43:33.2632459+00:00:Thread#0:TestItem#16:testItemMatchesCurrentTestThread:UnSpecific
+2024-12-05T19:43:33.2632493+00:00:Thread#0:TestItem#16:runsOnOneOtherThreadSpecific:False
+2024-12-05T19:43:33.2632509+00:00:Thread#0:TestItem#16:runsOnOneOtherThreadUnspecific:False
+2024-12-05T19:43:33.2632523+00:00:Thread#0:Scheduler: using testitem #16 for thread 0
+2024-12-05T19:43:33.2632761+00:00:Thread#0:Scheduler: Test #16 is scheduled for thread
+2024-12-05T19:43:33.2633031+00:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2024-12-05T19:43:33.3657908+00:00:Thread#0: Test #15/0 is finished on thread #0 as Failed within 10.9212015 seconds
+2024-12-05T19:43:33.3665431+00:00:Thread#0: Test #16/0 is started on thread #0
+2024-12-05T19:43:33.3697578+00:00:2024-12-05T19:43:33.3687560+00:00:Thread#0:B:Given I Navigate to ENSEK website
+2024-12-05T19:43:36.8529902+00:00:2024-12-05T19:43:36.8519686+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.GivenINavigateToENSEKWebsite() (3.5s)
+2024-12-05T19:43:36.8534053+00:00:2024-12-05T19:43:36.8532293+00:00:Thread#0:B:Then The user should be in ENSEK homepage
+2024-12-05T19:43:38.9037986+00:00:2024-12-05T19:43:38.9032905+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.ThenTheUserShouldBeInENSEKHomepage() (2.0s)
+2024-12-05T19:43:38.9041769+00:00:2024-12-05T19:43:38.9040007+00:00:Thread#0:B:When I click on Buy Energy button
+2024-12-05T19:43:39.2642275+00:00:2024-12-05T19:43:39.2639484+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.WhenIClickOnBuyEnergyButton() (0.4s)
+2024-12-05T19:43:39.2644908+00:00:2024-12-05T19:43:39.2643834+00:00:Thread#0:B:And I click on Reset button
+2024-12-05T19:43:39.6166567+00:00:2024-12-05T19:43:39.6163873+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.WhenIClickOnResetButton() (0.4s)
+2024-12-05T19:43:39.6171155+00:00:2024-12-05T19:43:39.6169737+00:00:Thread#0:B:Then the user should be navigated to Buy Energy page
+2024-12-05T19:43:41.6595298+00:00:2024-12-05T19:43:41.6591636+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.ThenTheUserShouldBeNavigatedToPage("Buy Energy") (2.0s)
+2024-12-05T19:43:41.6599462+00:00:2024-12-05T19:43:41.6597750+00:00:Thread#0:B:And the user should see the list of energy type with details
+2024-12-05T19:43:41.6601611+00:00:2024-12-05T19:43:41.6600402+00:00:Thread#0:B:  --- table step argument ---
+2024-12-05T19:43:41.6603344+00:00:2024-12-05T19:43:41.6602329+00:00:Thread#0:B:  | EnergyType  | Price            | QuantityOfUnitsAvailable | NumberOfUnitsRequired |
+2024-12-05T19:43:41.6604918+00:00:2024-12-05T19:43:41.6604050+00:00:Thread#0:B:  | Gas         | £0.34 per m3     | 3000                     | 0                     |
+2024-12-05T19:43:41.6606344+00:00:2024-12-05T19:43:41.6605668+00:00:Thread#0:B:  | Nuclear     | £0.56 per MW     | 0                        | Not Available         |
+2024-12-05T19:43:41.6608881+00:00:2024-12-05T19:43:41.6607740+00:00:Thread#0:B:  | Electricity | £0.47 per kWh    | 4322                     | 0                     |
+2024-12-05T19:43:41.6610953+00:00:2024-12-05T19:43:41.6609827+00:00:Thread#0:B:  | Oil         | £0.50 per Litres | 20                       | 0                     |
+2024-12-05T19:43:41.9550060+00:00:2024-12-05T19:43:41.9546964+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.ThenTheUserShouldSeeTheListOfEnergyTypeWithDetails(System.Collection...) (0.3s)
+2024-12-05T19:43:41.9552541+00:00:2024-12-05T19:43:41.9551621+00:00:Thread#0:B:When I enter 0 units required for Oil energy type
+2024-12-05T19:43:42.1323529+00:00:2024-12-05T19:43:42.1321462+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.WhenIEnterUnitsRequiredForEnergyType(0, "Oil") (0.2s)
+2024-12-05T19:43:42.1326077+00:00:2024-12-05T19:43:42.1325003+00:00:Thread#0:B:Then The user should see buy button disabled
+2024-12-05T19:43:44.1738682+00:00:2024-12-05T19:43:44.1732769+00:00:Thread#0:T:error: no such element: Unable to locate element: {"method":"link text","selector":"Buy more »"}
+2024-12-05T19:43:44.1744315+00:00:2024-12-05T19:43:44.1741620+00:00:Thread#0:T:  (Session info: chrome=131.0.6778.87); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception (2.0s)
+2024-12-05T19:43:44.1756156+00:00:Thread#0:TestItem#16:Scheduler: reschedule tests for testitem #16
+2024-12-05T19:43:44.1763110+00:00:Thread#0:Scheduler: get next test for thread 0
+2024-12-05T19:43:44.1763786+00:00:Thread#:Scheduler: testitem #17 from normal test queue 
+2024-12-05T19:43:44.1763862+00:00:Thread#0:Scheduler: considering testitem #17 for thread 0
+2024-12-05T19:43:44.1764601+00:00:Thread#0:TestItem#17:testItemMatchesCurrentTestThread:UnSpecific
+2024-12-05T19:43:44.1764646+00:00:Thread#0:TestItem#17:runsOnOneOtherThreadSpecific:False
+2024-12-05T19:43:44.1764670+00:00:Thread#0:TestItem#17:runsOnOneOtherThreadUnspecific:False
+2024-12-05T19:43:44.1764684+00:00:Thread#0:Scheduler: using testitem #17 for thread 0
+2024-12-05T19:43:44.1765236+00:00:Thread#0:Scheduler: Test #17 is scheduled for thread
+2024-12-05T19:43:44.1765487+00:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2024-12-05T19:43:44.3167132+00:00:Thread#0: Test #16/0 is finished on thread #0 as Failed within 10.9500758 seconds
+2024-12-05T19:43:44.3177852+00:00:Thread#0: Test #17/0 is started on thread #0
+2024-12-05T19:43:44.3225380+00:00:2024-12-05T19:43:44.3215535+00:00:Thread#0:B:Given I Navigate to ENSEK website
+2024-12-05T19:43:47.7732543+00:00:2024-12-05T19:43:47.7729237+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.GivenINavigateToENSEKWebsite() (3.4s)
+2024-12-05T19:43:47.7737842+00:00:2024-12-05T19:43:47.7735679+00:00:Thread#0:B:Then The user should be in ENSEK homepage
+2024-12-05T19:43:49.8337003+00:00:2024-12-05T19:43:49.8333299+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.ThenTheUserShouldBeInENSEKHomepage() (2.1s)
+2024-12-05T19:43:49.8343900+00:00:2024-12-05T19:43:49.8340215+00:00:Thread#0:B:When I click on Buy Energy button
+2024-12-05T19:43:50.2804486+00:00:2024-12-05T19:43:50.2799399+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.WhenIClickOnBuyEnergyButton() (0.4s)
+2024-12-05T19:43:50.2809105+00:00:2024-12-05T19:43:50.2806741+00:00:Thread#0:B:And I click on Reset button
+2024-12-05T19:43:50.6790993+00:00:2024-12-05T19:43:50.6788362+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.WhenIClickOnResetButton() (0.4s)
+2024-12-05T19:43:50.6794793+00:00:2024-12-05T19:43:50.6793428+00:00:Thread#0:B:Then the user should be navigated to Buy Energy page
+2024-12-05T19:43:52.7268132+00:00:2024-12-05T19:43:52.7265404+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.ThenTheUserShouldBeNavigatedToPage("Buy Energy") (2.0s)
+2024-12-05T19:43:52.7271643+00:00:2024-12-05T19:43:52.7270035+00:00:Thread#0:B:And the user should see the list of energy type with details
+2024-12-05T19:43:52.7273831+00:00:2024-12-05T19:43:52.7272487+00:00:Thread#0:B:  --- table step argument ---
+2024-12-05T19:43:52.7275834+00:00:2024-12-05T19:43:52.7274614+00:00:Thread#0:B:  | EnergyType  | Price            | QuantityOfUnitsAvailable | NumberOfUnitsRequired |
+2024-12-05T19:43:52.7277927+00:00:2024-12-05T19:43:52.7276722+00:00:Thread#0:B:  | Gas         | £0.34 per m3     | 3000                     | 0                     |
+2024-12-05T19:43:52.7279750+00:00:2024-12-05T19:43:52.7278694+00:00:Thread#0:B:  | Nuclear     | £0.56 per MW     | 0                        | Not Available         |
+2024-12-05T19:43:52.7281780+00:00:2024-12-05T19:43:52.7280474+00:00:Thread#0:B:  | Electricity | £0.47 per kWh    | 4322                     | 0                     |
+2024-12-05T19:43:52.7284180+00:00:2024-12-05T19:43:52.7282940+00:00:Thread#0:B:  | Oil         | £0.50 per Litres | 20                       | 0                     |
+2024-12-05T19:43:53.0242769+00:00:2024-12-05T19:43:53.0240837+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.ThenTheUserShouldSeeTheListOfEnergyTypeWithDetails(System.Collection...) (0.3s)
+2024-12-05T19:43:53.0245057+00:00:2024-12-05T19:43:53.0244224+00:00:Thread#0:B:When I enter 10 units required for Oil energy type
+2024-12-05T19:43:53.2081588+00:00:2024-12-05T19:43:53.2079420+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.WhenIEnterUnitsRequiredForEnergyType(10, "Oil") (0.2s)
+2024-12-05T19:43:53.2083920+00:00:2024-12-05T19:43:53.2083056+00:00:Thread#0:B:And I click on Buy button for Oil energy type
+2024-12-05T19:43:53.6396329+00:00:2024-12-05T19:43:53.6393054+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.WhenIClickOnBuyButtonForEnergyType("Oil") (0.4s)
+2024-12-05T19:43:53.6401677+00:00:2024-12-05T19:43:53.6399755+00:00:Thread#0:B:Then the User should see Sale Confirmed! With message Thank you for your purchase of 10 units of Oil We have popped it in the post and it will be with you shortly.There are now 10 units of Oil left in our stores.
+2024-12-05T19:43:57.7374189+00:00:2024-12-05T19:43:57.7369080+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.ThenTheUserShouldSeeWithMessage("Sale Confirmed!", "Thank you for you...") (4.1s)
+2024-12-05T19:43:57.7392897+00:00:2024-12-05T19:43:57.7389857+00:00:Thread#0:B:When the user clicks on Buy more button
+2024-12-05T19:43:57.9843058+00:00:2024-12-05T19:43:57.9840464+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.WhenTheUserClicksOnBuyMoreButton() (0.2s)
+2024-12-05T19:43:57.9846008+00:00:2024-12-05T19:43:57.9844748+00:00:Thread#0:B:Then the user should be navigated to Buy Energy page
+2024-12-05T19:44:00.0337891+00:00:2024-12-05T19:44:00.0333991+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.ThenTheUserShouldBeNavigatedToPage("Buy Energy") (2.0s)
+2024-12-05T19:44:00.0344154+00:00:2024-12-05T19:44:00.0341299+00:00:Thread#0:B:And the user should see the list of energy type with details
+2024-12-05T19:44:00.0348613+00:00:2024-12-05T19:44:00.0345831+00:00:Thread#0:B:  --- table step argument ---
+2024-12-05T19:44:00.0352994+00:00:2024-12-05T19:44:00.0351322+00:00:Thread#0:B:  | EnergyType  | Price            | QuantityOfUnitsAvailable | NumberOfUnitsRequired |
+2024-12-05T19:44:00.0358009+00:00:2024-12-05T19:44:00.0355335+00:00:Thread#0:B:  | Gas         | £0.34 per m3     | 3000                     | 0                     |
+2024-12-05T19:44:00.0363701+00:00:2024-12-05T19:44:00.0361528+00:00:Thread#0:B:  | Nuclear     | £0.56 per MW     | 0                        | Not Available         |
+2024-12-05T19:44:00.0372143+00:00:2024-12-05T19:44:00.0368152+00:00:Thread#0:B:  | Electricity | £0.47 per kWh    | 4322                     | 0                     |
+2024-12-05T19:44:00.0376428+00:00:2024-12-05T19:44:00.0374003+00:00:Thread#0:B:  | Oil         | £0.50 per Litres | 10                       | 0                     |
+2024-12-05T19:44:00.3311711+00:00:2024-12-05T19:44:00.3309797+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.ThenTheUserShouldSeeTheListOfEnergyTypeWithDetails(System.Collection...) (0.3s)
+2024-12-05T19:44:00.3317562+00:00:Thread#0:Scheduler: get next test for thread 0
+2024-12-05T19:44:00.3317766+00:00:Thread#:Scheduler: testitem #18 from normal test queue 
+2024-12-05T19:44:00.3317803+00:00:Thread#0:Scheduler: considering testitem #18 for thread 0
+2024-12-05T19:44:00.3318186+00:00:Thread#0:TestItem#18:testItemMatchesCurrentTestThread:UnSpecific
+2024-12-05T19:44:00.3318219+00:00:Thread#0:TestItem#18:runsOnOneOtherThreadSpecific:False
+2024-12-05T19:44:00.3318241+00:00:Thread#0:TestItem#18:runsOnOneOtherThreadUnspecific:False
+2024-12-05T19:44:00.3318255+00:00:Thread#0:Scheduler: using testitem #18 for thread 0
+2024-12-05T19:44:00.3318438+00:00:Thread#0:Scheduler: Test #18 is scheduled for thread
+2024-12-05T19:44:00.3318785+00:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2024-12-05T19:44:00.4669442+00:00:Thread#0: Test #17/0 is finished on thread #0 as Succeeded within 16.1490375 seconds
+2024-12-05T19:44:00.4676800+00:00:Thread#0: Test #18/0 is started on thread #0
+2024-12-05T19:44:00.4715272+00:00:2024-12-05T19:44:00.4706523+00:00:Thread#0:B:Given I Navigate to ENSEK website
+2024-12-05T19:44:03.9657157+00:00:2024-12-05T19:44:03.9654367+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.GivenINavigateToENSEKWebsite() (3.5s)
+2024-12-05T19:44:03.9661920+00:00:2024-12-05T19:44:03.9659261+00:00:Thread#0:B:Then The user should be in ENSEK homepage
+2024-12-05T19:44:06.0063605+00:00:2024-12-05T19:44:06.0060393+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.ThenTheUserShouldBeInENSEKHomepage() (2.0s)
+2024-12-05T19:44:06.0067837+00:00:2024-12-05T19:44:06.0065769+00:00:Thread#0:B:When I click on Buy Energy button
+2024-12-05T19:44:06.3663466+00:00:2024-12-05T19:44:06.3660703+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.WhenIClickOnBuyEnergyButton() (0.4s)
+2024-12-05T19:44:06.3667571+00:00:2024-12-05T19:44:06.3666036+00:00:Thread#0:B:And I click on Reset button
+2024-12-05T19:44:06.7494402+00:00:2024-12-05T19:44:06.7491137+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.WhenIClickOnResetButton() (0.4s)
+2024-12-05T19:44:06.7498825+00:00:2024-12-05T19:44:06.7497419+00:00:Thread#0:B:Then the user should be navigated to Buy Energy page
+2024-12-05T19:44:08.7928047+00:00:2024-12-05T19:44:08.7925428+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.ThenTheUserShouldBeNavigatedToPage("Buy Energy") (2.0s)
+2024-12-05T19:44:08.7931574+00:00:2024-12-05T19:44:08.7930205+00:00:Thread#0:B:And the user should see the list of energy type with details
+2024-12-05T19:44:08.7933212+00:00:2024-12-05T19:44:08.7932306+00:00:Thread#0:B:  --- table step argument ---
+2024-12-05T19:44:08.7934778+00:00:2024-12-05T19:44:08.7933961+00:00:Thread#0:B:  | EnergyType  | Price            | QuantityOfUnitsAvailable | NumberOfUnitsRequired |
+2024-12-05T19:44:08.7936938+00:00:2024-12-05T19:44:08.7935559+00:00:Thread#0:B:  | Gas         | £0.34 per m3     | 3000                     | 0                     |
+2024-12-05T19:44:08.7939286+00:00:2024-12-05T19:44:08.7938081+00:00:Thread#0:B:  | Nuclear     | £0.56 per MW     | 0                        | Not Available         |
+2024-12-05T19:44:08.7941655+00:00:2024-12-05T19:44:08.7940474+00:00:Thread#0:B:  | Electricity | £0.47 per kWh    | 4322                     | 0                     |
+2024-12-05T19:44:08.7944128+00:00:2024-12-05T19:44:08.7942900+00:00:Thread#0:B:  | Oil         | £0.50 per Litres | 20                       | 0                     |
+2024-12-05T19:44:09.1123519+00:00:2024-12-05T19:44:09.1121319+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.ThenTheUserShouldSeeTheListOfEnergyTypeWithDetails(System.Collection...) (0.3s)
+2024-12-05T19:44:09.1126398+00:00:2024-12-05T19:44:09.1125185+00:00:Thread#0:B:When I enter 10 units required for Oil energy type
+2024-12-05T19:44:09.3172808+00:00:2024-12-05T19:44:09.3170299+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.WhenIEnterUnitsRequiredForEnergyType(10, "Oil") (0.2s)
+2024-12-05T19:44:09.3175291+00:00:2024-12-05T19:44:09.3174289+00:00:Thread#0:B:And I click on Buy button for Oil energy type
+2024-12-05T19:44:09.7946082+00:00:2024-12-05T19:44:09.7941722+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.WhenIClickOnBuyButtonForEnergyType("Oil") (0.5s)
+2024-12-05T19:44:09.7955524+00:00:2024-12-05T19:44:09.7952295+00:00:Thread#0:B:Then the User should see Sale Confirmed! With message Thank you for your purchase of 10 units of Oil We have popped it in the post and it will be with you shortly.There are now 10 units of Oil left in our stores.
+2024-12-05T19:44:13.8805857+00:00:2024-12-05T19:44:13.8802585+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.ThenTheUserShouldSeeWithMessage("Sale Confirmed!", "Thank you for you...") (4.1s)
+2024-12-05T19:44:13.8810408+00:00:2024-12-05T19:44:13.8808028+00:00:Thread#0:B:When the user clicks on Buy more button
+2024-12-05T19:44:14.1291858+00:00:2024-12-05T19:44:14.1289575+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.WhenTheUserClicksOnBuyMoreButton() (0.2s)
+2024-12-05T19:44:14.1294675+00:00:2024-12-05T19:44:14.1293481+00:00:Thread#0:B:Then the user should be navigated to Buy Energy page
+2024-12-05T19:44:16.1832414+00:00:2024-12-05T19:44:16.1828019+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.ThenTheUserShouldBeNavigatedToPage("Buy Energy") (2.1s)
+2024-12-05T19:44:16.1839677+00:00:2024-12-05T19:44:16.1836224+00:00:Thread#0:B:And the user should see the list of energy type with details
+2024-12-05T19:44:16.1845457+00:00:2024-12-05T19:44:16.1842451+00:00:Thread#0:B:  --- table step argument ---
+2024-12-05T19:44:16.1850386+00:00:2024-12-05T19:44:16.1847838+00:00:Thread#0:B:  | EnergyType  | Price            | QuantityOfUnitsAvailable | NumberOfUnitsRequired |
+2024-12-05T19:44:16.1854091+00:00:2024-12-05T19:44:16.1851956+00:00:Thread#0:B:  | Gas         | £0.34 per m3     | 3000                     | 0                     |
+2024-12-05T19:44:16.1856512+00:00:2024-12-05T19:44:16.1855515+00:00:Thread#0:B:  | Nuclear     | £0.56 per MW     | 0                        | Not Available         |
+2024-12-05T19:44:16.1859305+00:00:2024-12-05T19:44:16.1857515+00:00:Thread#0:B:  | Electricity | £0.47 per kWh    | 4322                     | 0                     |
+2024-12-05T19:44:16.1862943+00:00:2024-12-05T19:44:16.1861366+00:00:Thread#0:B:  | Oil         | £0.50 per Litres | 10                       | 0                     |
+2024-12-05T19:44:16.4853405+00:00:2024-12-05T19:44:16.4849937+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.ThenTheUserShouldSeeTheListOfEnergyTypeWithDetails(System.Collection...) (0.3s)
+2024-12-05T19:44:16.4856532+00:00:2024-12-05T19:44:16.4855301+00:00:Thread#0:B:When I enter 5 units required for Oil energy type
+2024-12-05T19:44:16.6530943+00:00:2024-12-05T19:44:16.6527303+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.WhenIEnterUnitsRequiredForEnergyType(5, "Oil") (0.2s)
+2024-12-05T19:44:16.6539364+00:00:2024-12-05T19:44:16.6535168+00:00:Thread#0:B:And I click on Buy button for Oil energy type
+2024-12-05T19:44:17.5868458+00:00:2024-12-05T19:44:17.5860847+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.WhenIClickOnBuyButtonForEnergyType("Oil") (0.9s)
+2024-12-05T19:44:17.5875620+00:00:2024-12-05T19:44:17.5873281+00:00:Thread#0:B:Then the User should see Sale Confirmed! With message Thank you for your purchase of 5 units of Oil We have popped it in the post and it will be with you shortly.There are now 5 units of Oil left in our stores.
+2024-12-05T19:44:21.6698208+00:00:2024-12-05T19:44:21.6695745+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.ThenTheUserShouldSeeWithMessage("Sale Confirmed!", "Thank you for you...") (4.1s)
+2024-12-05T19:44:21.6702473+00:00:2024-12-05T19:44:21.6701060+00:00:Thread#0:B:When the user clicks on Buy more button
+2024-12-05T19:44:23.4731622+00:00:2024-12-05T19:44:23.4728473+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.WhenTheUserClicksOnBuyMoreButton() (1.8s)
+2024-12-05T19:44:23.4735739+00:00:2024-12-05T19:44:23.4733831+00:00:Thread#0:B:Then the user should be navigated to Buy Energy page
+2024-12-05T19:44:25.5184858+00:00:2024-12-05T19:44:25.5182345+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.ThenTheUserShouldBeNavigatedToPage("Buy Energy") (2.0s)
+2024-12-05T19:44:25.5188430+00:00:2024-12-05T19:44:25.5187064+00:00:Thread#0:B:And the user should see the list of energy type with details
+2024-12-05T19:44:25.5190459+00:00:2024-12-05T19:44:25.5189542+00:00:Thread#0:B:  --- table step argument ---
+2024-12-05T19:44:25.5192982+00:00:2024-12-05T19:44:25.5191991+00:00:Thread#0:B:  | EnergyType  | Price            | QuantityOfUnitsAvailable | NumberOfUnitsRequired |
+2024-12-05T19:44:25.5195373+00:00:2024-12-05T19:44:25.5193985+00:00:Thread#0:B:  | Gas         | £0.34 per m3     | 3000                     | 0                     |
+2024-12-05T19:44:25.5197267+00:00:2024-12-05T19:44:25.5196488+00:00:Thread#0:B:  | Nuclear     | £0.56 per MW     | 0                        | Not Available         |
+2024-12-05T19:44:25.5199316+00:00:2024-12-05T19:44:25.5198188+00:00:Thread#0:B:  | Electricity | £0.47 per kWh    | 4322                     | 0                     |
+2024-12-05T19:44:25.5201642+00:00:2024-12-05T19:44:25.5200578+00:00:Thread#0:B:  | Oil         | £0.50 per Litres | 5                        | 0                     |
+2024-12-05T19:44:25.8109104+00:00:2024-12-05T19:44:25.8106941+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.ThenTheUserShouldSeeTheListOfEnergyTypeWithDetails(System.Collection...) (0.3s)
+2024-12-05T19:44:25.8116986+00:00:Thread#0:Scheduler: get next test for thread 0
+2024-12-05T19:44:25.8117197+00:00:Thread#:Scheduler: testitem #19 from normal test queue 
+2024-12-05T19:44:25.8117231+00:00:Thread#0:Scheduler: considering testitem #19 for thread 0
+2024-12-05T19:44:25.8117622+00:00:Thread#0:TestItem#19:testItemMatchesCurrentTestThread:UnSpecific
+2024-12-05T19:44:25.8117662+00:00:Thread#0:TestItem#19:runsOnOneOtherThreadSpecific:False
+2024-12-05T19:44:25.8117679+00:00:Thread#0:TestItem#19:runsOnOneOtherThreadUnspecific:False
+2024-12-05T19:44:25.8117693+00:00:Thread#0:Scheduler: using testitem #19 for thread 0
+2024-12-05T19:44:25.8118082+00:00:Thread#0:Scheduler: Test #19 is scheduled for thread
+2024-12-05T19:44:25.8118334+00:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2024-12-05T19:44:25.9393114+00:00:Thread#0: Test #18/0 is finished on thread #0 as Succeeded within 25.4714144 seconds
+2024-12-05T19:44:25.9416930+00:00:Thread#0: Test #19/0 is started on thread #0
+2024-12-05T19:44:25.9486117+00:00:2024-12-05T19:44:25.9479954+00:00:Thread#0:B:Given I Navigate to ENSEK website
+2024-12-05T19:44:29.5812709+00:00:2024-12-05T19:44:29.5808960+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.GivenINavigateToENSEKWebsite() (3.6s)
+2024-12-05T19:44:29.5818496+00:00:2024-12-05T19:44:29.5816861+00:00:Thread#0:B:Then The user should be in ENSEK homepage
+2024-12-05T19:44:31.6263006+00:00:2024-12-05T19:44:31.6261021+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.ThenTheUserShouldBeInENSEKHomepage() (2.0s)
+2024-12-05T19:44:31.6265343+00:00:2024-12-05T19:44:31.6264485+00:00:Thread#0:B:When I click on Buy Energy button
+2024-12-05T19:44:32.0062332+00:00:2024-12-05T19:44:32.0059231+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.WhenIClickOnBuyEnergyButton() (0.4s)
+2024-12-05T19:44:32.0065093+00:00:2024-12-05T19:44:32.0064138+00:00:Thread#0:B:And I click on Reset button
+2024-12-05T19:44:32.3819533+00:00:2024-12-05T19:44:32.3817584+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.WhenIClickOnResetButton() (0.4s)
+2024-12-05T19:44:32.3821935+00:00:2024-12-05T19:44:32.3821010+00:00:Thread#0:B:Then the user should be navigated to Buy Energy page
+2024-12-05T19:44:34.4262908+00:00:2024-12-05T19:44:34.4260838+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.ThenTheUserShouldBeNavigatedToPage("Buy Energy") (2.0s)
+2024-12-05T19:44:34.4265749+00:00:2024-12-05T19:44:34.4264529+00:00:Thread#0:B:And the user should see the list of energy type with details
+2024-12-05T19:44:34.4267619+00:00:2024-12-05T19:44:34.4266434+00:00:Thread#0:B:  --- table step argument ---
+2024-12-05T19:44:34.4269186+00:00:2024-12-05T19:44:34.4268440+00:00:Thread#0:B:  | EnergyType  | Price            | QuantityOfUnitsAvailable | NumberOfUnitsRequired |
+2024-12-05T19:44:34.4270581+00:00:2024-12-05T19:44:34.4269858+00:00:Thread#0:B:  | Gas         | £0.34 per m3     | 3000                     | 0                     |
+2024-12-05T19:44:34.4271981+00:00:2024-12-05T19:44:34.4271193+00:00:Thread#0:B:  | Nuclear     | £0.56 per MW     | 0                        | Not Available         |
+2024-12-05T19:44:34.4273827+00:00:2024-12-05T19:44:34.4272759+00:00:Thread#0:B:  | Electricity | £0.47 per kWh    | 4322                     | 0                     |
+2024-12-05T19:44:34.4275261+00:00:2024-12-05T19:44:34.4274480+00:00:Thread#0:B:  | Oil         | £0.50 per Litres | 20                       | 0                     |
+2024-12-05T19:44:34.7237701+00:00:2024-12-05T19:44:34.7235179+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.ThenTheUserShouldSeeTheListOfEnergyTypeWithDetails(System.Collection...) (0.3s)
+2024-12-05T19:44:34.7240385+00:00:2024-12-05T19:44:34.7239464+00:00:Thread#0:B:When I enter 3000 units required for gas energy type
+2024-12-05T19:44:34.8786063+00:00:2024-12-05T19:44:34.8783784+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.WhenIEnterUnitsRequiredForEnergyType(3000, "gas") (0.2s)
+2024-12-05T19:44:34.8788920+00:00:2024-12-05T19:44:34.8787914+00:00:Thread#0:B:And I click on Buy button for gas energy type
+2024-12-05T19:44:35.2954812+00:00:2024-12-05T19:44:35.2951731+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.WhenIClickOnBuyButtonForEnergyType("gas") (0.4s)
+2024-12-05T19:44:35.2957860+00:00:2024-12-05T19:44:35.2956651+00:00:Thread#0:B:Then the User should see Sale Confirmed! With message Thank you for your purchase of 3000 units of Gas We have popped it in the post and it will be with you shortly.There are now 0 units of Gas left in our stores.
+2024-12-05T19:44:39.3760712+00:00:2024-12-05T19:44:39.3757702+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.ThenTheUserShouldSeeWithMessage("Sale Confirmed!", "Thank you for you...") (4.1s)
+2024-12-05T19:44:39.3763853+00:00:2024-12-05T19:44:39.3762428+00:00:Thread#0:B:When the user clicks on Buy more button
+2024-12-05T19:44:39.6171518+00:00:2024-12-05T19:44:39.6168408+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.WhenTheUserClicksOnBuyMoreButton() (0.2s)
+2024-12-05T19:44:39.6178120+00:00:2024-12-05T19:44:39.6176075+00:00:Thread#0:B:Then the user should be navigated to Buy Energy page
+2024-12-05T19:44:41.6631274+00:00:2024-12-05T19:44:41.6628513+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.ThenTheUserShouldBeNavigatedToPage("Buy Energy") (2.0s)
+2024-12-05T19:44:41.6635581+00:00:2024-12-05T19:44:41.6633066+00:00:Thread#0:B:And the user should see the list of energy type with details
+2024-12-05T19:44:41.6637840+00:00:2024-12-05T19:44:41.6636497+00:00:Thread#0:B:  --- table step argument ---
+2024-12-05T19:44:41.6640100+00:00:2024-12-05T19:44:41.6638916+00:00:Thread#0:B:  | EnergyType  | Price            | QuantityOfUnitsAvailable | NumberOfUnitsRequired |
+2024-12-05T19:44:41.6642394+00:00:2024-12-05T19:44:41.6641548+00:00:Thread#0:B:  | Gas         | £0.34 per m3     | 0                        | Not Available         |
+2024-12-05T19:44:41.6646185+00:00:2024-12-05T19:44:41.6644301+00:00:Thread#0:B:  | Nuclear     | £0.56 per MW     | 0                        | Not Available         |
+2024-12-05T19:44:41.6649279+00:00:2024-12-05T19:44:41.6648125+00:00:Thread#0:B:  | Electricity | £0.47 per kWh    | 4322                     | 0                     |
+2024-12-05T19:44:41.6652750+00:00:2024-12-05T19:44:41.6651536+00:00:Thread#0:B:  | Oil         | £0.50 per Litres | 20                       | 0                     |
+2024-12-05T19:44:41.9630430+00:00:2024-12-05T19:44:41.9628247+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.ThenTheUserShouldSeeTheListOfEnergyTypeWithDetails(System.Collection...) (0.3s)
+2024-12-05T19:44:41.9632943+00:00:2024-12-05T19:44:41.9631950+00:00:Thread#0:B:And The user should not see Buy button for gas energy type
+2024-12-05T19:44:44.0757731+00:00:2024-12-05T19:44:44.0755019+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.ThenTheUserShouldNotSeeBuyButtonForEnergyType("gas") (2.1s)
+2024-12-05T19:44:44.0763967+00:00:Thread#0:Scheduler: get next test for thread 0
+2024-12-05T19:44:44.0764279+00:00:Thread#:Scheduler: testitem #20 from normal test queue 
+2024-12-05T19:44:44.0764338+00:00:Thread#0:Scheduler: considering testitem #20 for thread 0
+2024-12-05T19:44:44.0764977+00:00:Thread#0:TestItem#20:testItemMatchesCurrentTestThread:UnSpecific
+2024-12-05T19:44:44.0765075+00:00:Thread#0:TestItem#20:runsOnOneOtherThreadSpecific:False
+2024-12-05T19:44:44.0765099+00:00:Thread#0:TestItem#20:runsOnOneOtherThreadUnspecific:False
+2024-12-05T19:44:44.0765125+00:00:Thread#0:Scheduler: using testitem #20 for thread 0
+2024-12-05T19:44:44.0765720+00:00:Thread#0:Scheduler: Test #20 is scheduled for thread
+2024-12-05T19:44:44.0766064+00:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2024-12-05T19:44:44.2049042+00:00:Thread#0: Test #19/0 is finished on thread #0 as Succeeded within 18.2614496 seconds
+2024-12-05T19:44:44.2133963+00:00:Thread#0: Test #20/0 is started on thread #0
+2024-12-05T19:44:44.2164800+00:00:2024-12-05T19:44:44.2159334+00:00:Thread#0:B:Given I Navigate to ENSEK website
+2024-12-05T19:44:47.7504441+00:00:2024-12-05T19:44:47.7502305+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.GivenINavigateToENSEKWebsite() (3.5s)
+2024-12-05T19:44:47.7507079+00:00:2024-12-05T19:44:47.7506091+00:00:Thread#0:B:Then The user should be in ENSEK homepage
+2024-12-05T19:44:49.8023380+00:00:2024-12-05T19:44:49.8019463+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.ThenTheUserShouldBeInENSEKHomepage() (2.1s)
+2024-12-05T19:44:49.8031180+00:00:2024-12-05T19:44:49.8027235+00:00:Thread#0:B:When I click on Buy Energy button
+2024-12-05T19:44:50.1857970+00:00:2024-12-05T19:44:50.1855403+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.WhenIClickOnBuyEnergyButton() (0.4s)
+2024-12-05T19:44:50.1861031+00:00:2024-12-05T19:44:50.1859464+00:00:Thread#0:B:And I click on Reset button
+2024-12-05T19:44:50.5593020+00:00:2024-12-05T19:44:50.5590532+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.WhenIClickOnResetButton() (0.4s)
+2024-12-05T19:44:50.5595879+00:00:2024-12-05T19:44:50.5594643+00:00:Thread#0:B:Then the user should be navigated to Buy Energy page
+2024-12-05T19:44:52.6116401+00:00:2024-12-05T19:44:52.6114169+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.ThenTheUserShouldBeNavigatedToPage("Buy Energy") (2.1s)
+2024-12-05T19:44:52.6118785+00:00:2024-12-05T19:44:52.6117969+00:00:Thread#0:B:And the user should see the list of energy type with details
+2024-12-05T19:44:52.6120888+00:00:2024-12-05T19:44:52.6120053+00:00:Thread#0:B:  --- table step argument ---
+2024-12-05T19:44:52.6123354+00:00:2024-12-05T19:44:52.6122059+00:00:Thread#0:B:  | EnergyType  | Price            | QuantityOfUnitsAvailable | NumberOfUnitsRequired |
+2024-12-05T19:44:52.6125646+00:00:2024-12-05T19:44:52.6124525+00:00:Thread#0:B:  | Gas         | £0.34 per m3     | 3000                     | 0                     |
+2024-12-05T19:44:52.6128089+00:00:2024-12-05T19:44:52.6126883+00:00:Thread#0:B:  | Nuclear     | £0.56 per MW     | 0                        | Not Available         |
+2024-12-05T19:44:52.6130303+00:00:2024-12-05T19:44:52.6129243+00:00:Thread#0:B:  | Electricity | £0.47 per kWh    | 4322                     | 0                     |
+2024-12-05T19:44:52.6132081+00:00:2024-12-05T19:44:52.6131417+00:00:Thread#0:B:  | Oil         | £0.50 per Litres | 20                       | 0                     |
+2024-12-05T19:44:52.9110773+00:00:2024-12-05T19:44:52.9108649+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.ThenTheUserShouldSeeTheListOfEnergyTypeWithDetails(System.Collection...) (0.3s)
+2024-12-05T19:44:52.9113206+00:00:2024-12-05T19:44:52.9112238+00:00:Thread#0:B:When I enter 4322 units required for electricity energy type
+2024-12-05T19:44:53.0933832+00:00:2024-12-05T19:44:53.0931075+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.WhenIEnterUnitsRequiredForEnergyType(4322, "electricity") (0.2s)
+2024-12-05T19:44:53.0936472+00:00:2024-12-05T19:44:53.0935461+00:00:Thread#0:B:And I click on Buy button for electricity energy type
+2024-12-05T19:44:53.5157729+00:00:2024-12-05T19:44:53.5155417+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.WhenIClickOnBuyButtonForEnergyType("electricity") (0.4s)
+2024-12-05T19:44:53.5160696+00:00:2024-12-05T19:44:53.5159670+00:00:Thread#0:B:Then the User should see Sale Confirmed! With message Thank you for your purchase of 4322 units of Electricity We have popped it in the post and it will be with you shortly.There are now 0 units of Electricity left in our stores.
+2024-12-05T19:44:57.5980568+00:00:2024-12-05T19:44:57.5977784+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.ThenTheUserShouldSeeWithMessage("Sale Confirmed!", "Thank you for you...") (4.1s)
+2024-12-05T19:44:57.5983778+00:00:2024-12-05T19:44:57.5982487+00:00:Thread#0:B:When the user clicks on Buy more button
+2024-12-05T19:44:57.8336604+00:00:2024-12-05T19:44:57.8333550+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.WhenTheUserClicksOnBuyMoreButton() (0.2s)
+2024-12-05T19:44:57.8340130+00:00:2024-12-05T19:44:57.8338573+00:00:Thread#0:B:Then the user should be navigated to Buy Energy page
+2024-12-05T19:44:59.8679091+00:00:2024-12-05T19:44:59.8677167+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.ThenTheUserShouldBeNavigatedToPage("Buy Energy") (2.0s)
+2024-12-05T19:44:59.8682780+00:00:2024-12-05T19:44:59.8681342+00:00:Thread#0:B:And the user should see the list of energy type with details
+2024-12-05T19:44:59.8685619+00:00:2024-12-05T19:44:59.8683991+00:00:Thread#0:B:  --- table step argument ---
+2024-12-05T19:44:59.8687420+00:00:2024-12-05T19:44:59.8686572+00:00:Thread#0:B:  | EnergyType  | Price            | QuantityOfUnitsAvailable | NumberOfUnitsRequired |
+2024-12-05T19:44:59.8689426+00:00:2024-12-05T19:44:59.8688458+00:00:Thread#0:B:  | Gas         | £0.34 per m3     | 3000                     | 0                     |
+2024-12-05T19:44:59.8691493+00:00:2024-12-05T19:44:59.8690437+00:00:Thread#0:B:  | Nuclear     | £0.56 per MW     | 0                        | Not Available         |
+2024-12-05T19:44:59.8693555+00:00:2024-12-05T19:44:59.8692439+00:00:Thread#0:B:  | Electricity | £0.47 per kWh    | 0                        | Not Available         |
+2024-12-05T19:44:59.8696307+00:00:2024-12-05T19:44:59.8694430+00:00:Thread#0:B:  | Oil         | £0.50 per Litres | 5                        | 0                     |
+2024-12-05T19:45:00.1886541+00:00:2024-12-05T19:45:00.1884373+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.ThenTheUserShouldSeeTheListOfEnergyTypeWithDetails(System.Collection...) (0.3s)
+2024-12-05T19:45:00.1889696+00:00:2024-12-05T19:45:00.1888343+00:00:Thread#0:B:And The user should not see Buy button for electricity energy type
+2024-12-05T19:45:02.3121432+00:00:2024-12-05T19:45:02.3119242+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.ThenTheUserShouldNotSeeBuyButtonForEnergyType("electricity") (2.1s)
+2024-12-05T19:45:02.3127170+00:00:Thread#0:Scheduler: get next test for thread 0
+2024-12-05T19:45:02.3127406+00:00:Thread#:Scheduler: testitem #21 from normal test queue 
+2024-12-05T19:45:02.3127436+00:00:Thread#0:Scheduler: considering testitem #21 for thread 0
+2024-12-05T19:45:02.3127810+00:00:Thread#0:TestItem#21:testItemMatchesCurrentTestThread:UnSpecific
+2024-12-05T19:45:02.3127842+00:00:Thread#0:TestItem#21:runsOnOneOtherThreadSpecific:False
+2024-12-05T19:45:02.3127871+00:00:Thread#0:TestItem#21:runsOnOneOtherThreadUnspecific:False
+2024-12-05T19:45:02.3127896+00:00:Thread#0:Scheduler: using testitem #21 for thread 0
+2024-12-05T19:45:02.3128031+00:00:Thread#0:Scheduler: Test #21 is scheduled for thread
+2024-12-05T19:45:02.3128386+00:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2024-12-05T19:45:02.4334758+00:00:Thread#0: Test #20/0 is finished on thread #0 as Succeeded within 18.2200011 seconds
+2024-12-05T19:45:02.4341790+00:00:Thread#0: Test #21/0 is started on thread #0
+2024-12-05T19:45:02.4371756+00:00:2024-12-05T19:45:02.4365959+00:00:Thread#0:B:Given I Navigate to ENSEK website
+2024-12-05T19:45:05.9853214+00:00:2024-12-05T19:45:05.9849903+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.GivenINavigateToENSEKWebsite() (3.5s)
+2024-12-05T19:45:05.9866675+00:00:2024-12-05T19:45:05.9857300+00:00:Thread#0:B:Then The user should be in ENSEK homepage
+2024-12-05T19:45:08.0340680+00:00:2024-12-05T19:45:08.0335551+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.ThenTheUserShouldBeInENSEKHomepage() (2.0s)
+2024-12-05T19:45:08.0344146+00:00:2024-12-05T19:45:08.0342742+00:00:Thread#0:B:When I click on Buy Energy button
+2024-12-05T19:45:08.4002662+00:00:2024-12-05T19:45:08.4000407+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.WhenIClickOnBuyEnergyButton() (0.4s)
+2024-12-05T19:45:08.4005019+00:00:2024-12-05T19:45:08.4004175+00:00:Thread#0:B:And I click on Reset button
+2024-12-05T19:45:08.7814312+00:00:2024-12-05T19:45:08.7812119+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.WhenIClickOnResetButton() (0.4s)
+2024-12-05T19:45:08.7817053+00:00:2024-12-05T19:45:08.7816098+00:00:Thread#0:B:Then the user should be navigated to Buy Energy page
+2024-12-05T19:45:10.8218867+00:00:2024-12-05T19:45:10.8216415+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.ThenTheUserShouldBeNavigatedToPage("Buy Energy") (2.0s)
+2024-12-05T19:45:10.8221935+00:00:2024-12-05T19:45:10.8220678+00:00:Thread#0:B:And the user should see the list of energy type with details
+2024-12-05T19:45:10.8223340+00:00:2024-12-05T19:45:10.8222676+00:00:Thread#0:B:  --- table step argument ---
+2024-12-05T19:45:10.8225070+00:00:2024-12-05T19:45:10.8224115+00:00:Thread#0:B:  | EnergyType  | Price            | QuantityOfUnitsAvailable | NumberOfUnitsRequired |
+2024-12-05T19:45:10.8226667+00:00:2024-12-05T19:45:10.8225840+00:00:Thread#0:B:  | Gas         | £0.34 per m3     | 3000                     | 0                     |
+2024-12-05T19:45:10.8227954+00:00:2024-12-05T19:45:10.8227313+00:00:Thread#0:B:  | Nuclear     | £0.56 per MW     | 0                        | Not Available         |
+2024-12-05T19:45:10.8229968+00:00:2024-12-05T19:45:10.8229116+00:00:Thread#0:B:  | Electricity | £0.47 per kWh    | 4322                     | 0                     |
+2024-12-05T19:45:10.8232469+00:00:2024-12-05T19:45:10.8231182+00:00:Thread#0:B:  | Oil         | £0.50 per Litres | 20                       | 0                     |
+2024-12-05T19:45:11.1235121+00:00:2024-12-05T19:45:11.1232635+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.ThenTheUserShouldSeeTheListOfEnergyTypeWithDetails(System.Collection...) (0.3s)
+2024-12-05T19:45:11.1237667+00:00:2024-12-05T19:45:11.1236619+00:00:Thread#0:B:When I enter 20 units required for oil energy type
+2024-12-05T19:45:11.3074996+00:00:2024-12-05T19:45:11.3070660+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.WhenIEnterUnitsRequiredForEnergyType(20, "oil") (0.2s)
+2024-12-05T19:45:11.3078292+00:00:2024-12-05T19:45:11.3076678+00:00:Thread#0:B:And I click on Buy button for oil energy type
+2024-12-05T19:45:11.7463773+00:00:2024-12-05T19:45:11.7460380+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.WhenIClickOnBuyButtonForEnergyType("oil") (0.4s)
+2024-12-05T19:45:11.7467876+00:00:2024-12-05T19:45:11.7466171+00:00:Thread#0:B:Then the User should see Sale Confirmed! With message Thank you for your purchase of 20 units of Oil We have popped it in the post and it will be with you shortly.There are now 0 units of Oil left in our stores.
+2024-12-05T19:45:15.8458653+00:00:2024-12-05T19:45:15.8456303+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.ThenTheUserShouldSeeWithMessage("Sale Confirmed!", "Thank you for you...") (4.1s)
+2024-12-05T19:45:15.8462086+00:00:2024-12-05T19:45:15.8460847+00:00:Thread#0:B:When the user clicks on Buy more button
+2024-12-05T19:45:16.0818762+00:00:2024-12-05T19:45:16.0815911+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.WhenTheUserClicksOnBuyMoreButton() (0.2s)
+2024-12-05T19:45:16.0821850+00:00:2024-12-05T19:45:16.0820568+00:00:Thread#0:B:Then the user should be navigated to Buy Energy page
+2024-12-05T19:45:18.1227888+00:00:2024-12-05T19:45:18.1225686+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.ThenTheUserShouldBeNavigatedToPage("Buy Energy") (2.0s)
+2024-12-05T19:45:18.1231037+00:00:2024-12-05T19:45:18.1229497+00:00:Thread#0:B:And the user should see the list of energy type with details
+2024-12-05T19:45:18.1233307+00:00:2024-12-05T19:45:18.1232241+00:00:Thread#0:B:  --- table step argument ---
+2024-12-05T19:45:18.1234915+00:00:2024-12-05T19:45:18.1234224+00:00:Thread#0:B:  | EnergyType  | Price            | QuantityOfUnitsAvailable | NumberOfUnitsRequired |
+2024-12-05T19:45:18.1236671+00:00:2024-12-05T19:45:18.1235854+00:00:Thread#0:B:  | Gas         | £0.34 per m3     | 3000                     | 0                     |
+2024-12-05T19:45:18.1238331+00:00:2024-12-05T19:45:18.1237614+00:00:Thread#0:B:  | Nuclear     | £0.56 per MW     | 0                        | Not Available         |
+2024-12-05T19:45:18.1240668+00:00:2024-12-05T19:45:18.1239666+00:00:Thread#0:B:  | Electricity | £0.47 per kWh    | 4322                     | 0                     |
+2024-12-05T19:45:18.1242494+00:00:2024-12-05T19:45:18.1241597+00:00:Thread#0:B:  | Oil         | £0.50 per Litres | 0                        | Not Available         |
+2024-12-05T19:45:18.4321945+00:00:2024-12-05T19:45:18.4319963+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.ThenTheUserShouldSeeTheListOfEnergyTypeWithDetails(System.Collection...) (0.3s)
+2024-12-05T19:45:18.4324121+00:00:2024-12-05T19:45:18.4323320+00:00:Thread#0:B:And The user should not see Buy button for oil energy type
+2024-12-05T19:45:20.5730162+00:00:2024-12-05T19:45:20.5728106+00:00:Thread#0:T:done: BuyEnergyStepDefinitions.ThenTheUserShouldNotSeeBuyButtonForEnergyType("oil") (2.1s)
+2024-12-05T19:45:20.5736324+00:00:Thread#0:Scheduler: get next test for thread 0
+2024-12-05T19:45:20.5736772+00:00:Thread#:Scheduler: at the end of normal test queue
+2024-12-05T19:45:20.5736790+00:00:Thread#0:Scheduler: enumerator for thread is at end
+2024-12-05T19:45:20.5736822+00:00:Thread#0:Scheduler: No more tests for thread
+2024-12-05T19:45:20.7171798+00:00:Thread#0: Test #21/0 is finished on thread #0 as Succeeded within 18.2828548 seconds
+2024-12-05T19:45:20.7312454+00:00:2024-12-05T19:45:20.7309232+00:00:Got Deinitialize Signal
+2024-12-05T19:45:20.7349676+00:00:RPC Client disconnected, because 'Disposed'. 
+LastMessage: 
+Description:Stream has been disposed
+Exception:<none>
+2024-12-05T19:45:20.7355847+00:00:RPC Server disconnected, because 'Disposed'. 
+LastMessage: 
+Description:Reached end of stream.
+Exception:<none>
+2024-12-05T19:45:20.7369102+00:00:RPC Server disconnected, because 'Disposed'. 
+LastMessage: 
+Description:Reached end of stream.
+Exception:<none>
+2024-12-05T19:45:20.7438732+00:00:Assembly resolving System.Diagnostics.Process.resources, Version=4.2.2.0, Culture=en-US, PublicKeyToken=b03f5f7f11d50a3a
+2024-12-05T19:45:20.7439206+00:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' from .deps.json file
+2024-12-05T19:45:20.7439300+00:00:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' from .deps.json
+2024-12-05T19:45:20.7439391+00:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' in folder 'C:\Users\savio\source\repos\ENSEKUITests\bin\Debug\netcoreapp3.1'
+2024-12-05T19:45:20.7439466+00:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Users\savio\source\repos\ENSEKUITests\bin\Debug\netcoreapp3.1\System.Diagnostics.Process.resources.dll'
+2024-12-05T19:45:20.7439913+00:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Users\savio\source\repos\ENSEKUITests\bin\Debug\netcoreapp3.1\System.Diagnostics.Process.resources.exe'
+2024-12-05T19:45:20.7440207+00:00:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' in folder 'C:\Users\savio\source\repos\ENSEKUITests\bin\Debug\netcoreapp3.1'
+2024-12-05T19:45:20.7440379+00:00:TargetFramework: .NETCoreApp,Version=v3.1
+2024-12-05T19:45:20.7441226+00:00:Tfm: netcoreapp3.1
+2024-12-05T19:45:20.7441268+00:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' in folder 'C:\Users\savio\source\repos\ENSEKUITests\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1'
+2024-12-05T19:45:20.7441291+00:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Users\savio\source\repos\ENSEKUITests\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\System.Diagnostics.Process.resources.dll'
+2024-12-05T19:45:20.7441760+00:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Users\savio\source\repos\ENSEKUITests\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1\System.Diagnostics.Process.resources.exe'
+2024-12-05T19:45:20.7442196+00:00:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' in folder 'C:\Users\savio\source\repos\ENSEKUITests\bin\Debug\netcoreapp3.1\SpecFlowPlusRunner\netcoreapp3.1'
+2024-12-05T19:45:20.7644458+00:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.3'
+2024-12-05T19:45:20.7644709+00:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.3\System.Diagnostics.Process.resources.dll'
+2024-12-05T19:45:20.7650279+00:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.3\System.Diagnostics.Process.resources.exe'
+2024-12-05T19:45:20.7651073+00:00:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\3.1.3'
+2024-12-05T19:45:20.7653773+00:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.3'
+2024-12-05T19:45:20.7653836+00:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.3\System.Diagnostics.Process.resources.dll'
+2024-12-05T19:45:20.7654313+00:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.3\System.Diagnostics.Process.resources.exe'
+2024-12-05T19:45:20.7654628+00:00:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.NETCore.App\3.1.3'
+2024-12-05T19:45:20.7659942+00:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.3'
+2024-12-05T19:45:20.7660065+00:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.3\System.Diagnostics.Process.resources.dll'
+2024-12-05T19:45:20.7664895+00:00:[AssemblyCache] Trying to resolve 'System.Diagnostics.Process.resources' to 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.3\System.Diagnostics.Process.resources.exe'
+2024-12-05T19:45:20.7665399+00:00:[AssemblyCache] Could not resolve 'System.Diagnostics.Process.resources' in folder 'C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\3.1.3'
+2024-12-05T19:45:20.7678847+00:00:Assembly resolving System.Diagnostics.Process.resources, Version=4.2.2.0, Culture=en, PublicKeyToken=b03f5f7f11d50a3a
+2024-12-05T19:45:20.7798038+00:00:Thread#-1:Scheduler: get next test for thread -1
+2024-12-05T19:45:20.7798562+00:00:Thread#:Scheduler: at the end of normal test queue
+2024-12-05T19:45:20.7798595+00:00:Thread#-1:Scheduler: enumerator for thread is at end
+2024-12-05T19:45:20.7814444+00:00;Thread#12;Info;test run finished
+2024-12-05T19:45:20.7817103+00:00;Thread#12;Info;publishing test results
+2024-12-05T19:45:20.7818745+00:00;Thread#12;Info;Not publishing results.
+2024-12-05T19:45:20.7819403+00:00;Thread#12;Info;test results published
+2024-12-05T19:45:20.7820005+00:00;Thread#12;Info;generating reports
+2024-12-05T19:45:20.8903918+00:00;Thread#12;Info;Starting external report generation process
+2024-12-05T19:45:23.6474425+00:00;Thread#12;Info;Successfully generated reports.
+2024-12-05T19:45:23.6503655+00:00;Thread#12;Info;Successfully generated reports
+2024-12-05T19:45:23.6575067+00:00:Total: 18
+2024-12-05T19:45:23.6587444+00:00:Succeeded: 12
+2024-12-05T19:45:23.6589656+00:00:Ignored: 0
+2024-12-05T19:45:23.6590951+00:00:Pending: 0
+2024-12-05T19:45:23.6590982+00:00:Skipped: 0
+2024-12-05T19:45:23.6592408+00:00:Failed: 6
+2024-12-05T19:45:23.6640483+00:00;VSTestExecutionThread;Info;Adding attachments to VSTest
+2024-12-05T19:45:23.6641260+00:00;VSTestExecutionThread;Info;adding Test Execution Report 'C:\Users\savio\source\repos\ENSEKUITests\TestResults\ENSEKUITests_ENSEKUITests_2024-12-05T194025.html'
+========== End of log file ==========
