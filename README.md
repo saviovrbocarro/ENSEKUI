@@ -15,6 +15,6 @@ Features would contain all the scenarios to test the application under test Scre
 
 Tools used for the UI Framework
 
-Visual Studio 2019
-Specflow
-Selenium
+1) Visual Studio 2019
+2) Specflow
+3) Selenium
